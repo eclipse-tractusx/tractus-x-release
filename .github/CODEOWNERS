@@ -1,0 +1,4 @@
+# You can use a CODEOWNERS file to define individuals or teams that are responsible for code in a repository.
+# Learn more about it: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+# Example of CODEOWNER file: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners#example-of-a-codeowners-file
+*        @catenax-ng/argocdadmins
