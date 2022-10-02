@@ -42,3 +42,13 @@ version: x.x.x
 # follow Semantic Versioning. They should reflect the version the application is using.
 # It is recommended to use it with quotes.
 appVersion: "release-x"
+
+dependencies:
+  - name: registry
+    version: 0.2.1
+    #condition: portal-backend.enabled
+    repository: https://www.eclipse.org/tractusx/charts
+  - name: semantic-hub
+    version: 0.1.1
+    #condition: portal-backend.enabled
+    repository: https://www.eclipse.org/tractusx/charts
