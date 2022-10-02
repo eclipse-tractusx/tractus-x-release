@@ -52,3 +52,4 @@ dependencies:
     version: 0.1.1
     #condition: portal-backend.enabled
     repository: https://www.eclipse.org/tractusx/charts
+### add more dependencies according to HELM rules
