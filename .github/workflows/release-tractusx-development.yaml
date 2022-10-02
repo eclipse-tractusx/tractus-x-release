@@ -50,7 +50,7 @@ jobs:
         run: |
           cd charts/tractusx-development
           helm dependency update
-          helm repo index
+          helm repo index . --merge index.yaml
           ls -la
           cat index.yaml      
           
