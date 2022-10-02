@@ -50,6 +50,7 @@ jobs:
         run: |
           cd charts/tractusx-development
           helm dependency update
+          ls -la
           cat index.yaml      
           
 #      - name: Run chart-releaser
