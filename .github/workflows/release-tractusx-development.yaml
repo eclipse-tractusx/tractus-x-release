@@ -17,8 +17,7 @@
 # *
 # * SPDX-License-Identifier: Apache-2.0
 # ********************************************************************************/
-
-name: release-tractusx-development-chart
+name: Release tractusx developmentchart
 
 on:
   workflow_dispatch:
@@ -51,8 +50,7 @@ jobs:
           cat index.yaml           
           echo "::set-output name=chart_version::$(cat Chart.yaml | grep -e '^version' | sed 's/version: //')"
       
-      - name: push index file
-        uses: actions/checkout@v3        
+      - name: push index file        
         run: | 
           git config user.name github-actions
           git config user.email github-actions@github.com
