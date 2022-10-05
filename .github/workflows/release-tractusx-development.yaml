@@ -32,14 +32,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
-
-      - name: Configure Git
-        run: |
-          git config user.name "$GITHUB_ACTOR"
-          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
           
       - name: Install Helm
         uses: azure/setup-helm@v1
@@ -47,6 +42,7 @@ jobs:
           version: v3.9.1
       
       - name: Update helm dependencies
+        id: index
         run: |
           cd charts/tractusx-development
           helm dependency update
@@ -54,9 +50,15 @@ jobs:
           ls -la
           cat index.yaml           
           echo "::set-output name=chart_version::$(cat Chart.yaml | grep -e '^version' | sed 's/version: //')"
-                   
-#      - name: Update index file in repository
-#        run: |
+      
+      - name: push index file
+        uses: actions/checkout@v3
+        run: | 
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "build: ${{ steps.index.outputs.chart_version }}"          
+          git push
 #          git add -A
 #          if ! git diff --cached --exit-code; then
 #            echo "Changes have been detected, update index file"
