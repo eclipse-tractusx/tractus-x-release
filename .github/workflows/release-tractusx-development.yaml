@@ -47,12 +47,27 @@ jobs:
           version: v3.9.1
       
       - name: Update helm dependencies
+        env:
+          CHART_VERSION:
         run: |
           cd charts/tractusx-development
           helm dependency update
           helm repo index . --merge index.yaml
           ls -la
-          cat index.yaml      
+          cat index.yaml           
+          echo "flag=$(cat Chart.yaml | grep -e '^version' | sed 's/version: //')" >> $GITHUB_ENV       
+                   
+      - name: Update index file in repository
+        run: |
+          git add -A
+          if ! git diff --cached --exit-code; then
+            echo "Changes have been detected, update index file"
+            git commit -m "build: "
+            git log --graph --abbrev-commit --date=relative -n 5
+            git push origin HEAD:${BRANCH_NAME}
+          else
+            echo "No changes have been detected since last build, nothing to publish"
+          fi
           
 #      - name: Run chart-releaser
 #        uses: helm/chart-releaser-action@v1.4.0
