@@ -53,7 +53,7 @@ jobs:
           helm repo index . --merge index.yaml
           ls -la
           cat index.yaml           
-          echo "chart_version=$(cat Chart.yaml | grep -e '^version' | sed 's/version: //')" >> $GITHUB_ENV       
+          echo "::set-output name=chart_version::$(cat Chart.yaml | grep -e '^version' | sed 's/version: //')"
                    
 #      - name: Update index file in repository
 #        run: |
