@@ -6,8 +6,23 @@ It contains process definitions, as well as technical implementations for testin
 ## Schedule
 
 Tractus-X releases follow a quarterly schedule. In addition to the overarching quarterly release, single product
-releases take place on demand. 
-The overarching release is done to ensure compatibility, quality standards and alignment between Tractus-X products.
+releases take place on demand. The overarching release is intended to ensure compatibility, quality standards and
+alignment between Tractus-X products.
+
+## Runtime-Environment
+
+A Tractus-X releas require a Kubernetes Runtime-Environment in
+a [supported Kubernetes version](https://kubernetes.io/releases/). As a recommendation run the latest Kubernetes version
+-1.
+
+Example:  
+As of 1.11.2022 the following Kubernetes Versions are supported:
+
+- 1.23
+- 1.24
+- 1.25
+
+Recommended Kubernetes version in this case is 1.24.
 
 ## Process
 
