@@ -1,7 +1,7 @@
 # Tractus-X release
 
-This repository specifies details about overarching Tractus-X releases. 
-It contains process definitions, as well as technical implementations for testing and packaging release artifacts.
+This repository specifies details about overarching Tractus-X releases. It contains process definitions, as well as
+runtime-environment basic requirements, technical implementations for testing and packaging release artifacts.
 
 ## Schedule
 
@@ -18,16 +18,16 @@ a [supported Kubernetes version](https://kubernetes.io/releases/). As a recommen
 Example:  
 As of 1.11.2022 the following Kubernetes Versions are supported:
 
-- 1.23
-- 1.24
 - 1.25
+- 1.24
+- 1.23
 
 Recommended Kubernetes version in this case is 1.24.
 
 ## Process
 
 The release process describes manual and automated steps, that are performed to create a release. A release consists of
-at least one artifact, that can be used to deploy your application, or to be used as a dependency by other projects.
+at least one artifact, that can be used to deploy a Tractus-X application, or to be used as a dependency by other projects.
 
 ### Product release process
 
