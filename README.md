@@ -104,3 +104,7 @@ of product charts, that are tested to the best of our knowledge to work together
 ## Patching strategy
 
 `tbd`
+
+## Helm Repository
+
+For information about using the Tractus-X Helm repository, please refer to [this documentation](docs/helm-repsoitory.md).
