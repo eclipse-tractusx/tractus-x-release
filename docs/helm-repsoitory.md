@@ -12,8 +12,8 @@ Both branches will be hosted via GitHub Pages within this
 repository ([eclipse-tractus-x/tractus-x-release](https://github.com/eclipse-tractusx/tractus-x-release)) and will be
 accessible under URL
 
-- https://tractus-x-release.github.io/charts/dev for Dev branch
-- https://tractus-x-release.github.io/charts/stable for Stable branch
+- https://eclipse-tractusx.github.io/tractus-x-release/charts/dev for Dev branch
+- https://eclipse-tractusx.github.io/tractus-x-release/charts/stable for Stable branch
 
 ## Availability
 
