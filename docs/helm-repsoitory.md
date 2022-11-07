@@ -31,3 +31,19 @@ release. In the future, Helm charts associated with Tractus-X versions which hav
 removed from the stable branch.
 
 The Helm repository for stable branch will be updated when a new Tractus-X release or a patch update is released.
+
+## Usage
+
+### Dev Branch
+
+```shell
+$ helm repo add tractusx-dev https://eclipse-tractusx.github.io/tractus-x-release/charts/dev
+$ helm install my-release tractusx-dev/sub-product-name
+```
+
+### Stable Branch
+
+```shell
+$ helm repo add tractusx https://eclipse-tractusx.github.io/tractus-x-release/charts/stable
+$ helm install my-release tractusx/sub-product-name
+```
