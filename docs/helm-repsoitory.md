@@ -9,7 +9,7 @@ Helm Repository is split into two branches:
 ## Helm Repository URL
 
 Both branches will be hosted via GitHub Pages within this
-repository ([eclipse-tractus-x/tractus-x-release](https://github.com/eclipse-tractus-x/tractus-x-release)) and will be
+repository ([eclipse-tractus-x/tractus-x-release](https://github.com/eclipse-tractusx/tractus-x-release)) and will be
 accessible under URL
 
 - https://tractus-x-release.github.io/charts/dev for Dev branch
