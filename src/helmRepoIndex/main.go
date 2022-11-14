@@ -29,7 +29,6 @@ import (
 	"io"
 	"log"
 	"net/http"
-	"net/url"
 	"os"
 	"strings"
 	"time"
@@ -53,20 +52,10 @@ func getOrgRepos(ctx context.Context, gitOwner string, client *github.Client) ([
 }
 
 func downloadProductHelmRepoIndex(ctx context.Context, client *github.Client, gitOwner string, gitRepo string) string {
-
 	pageInfo, _, _ := client.Repositories.GetPagesInfo(ctx, gitOwner, gitRepo)
 	fullURLFile := *pageInfo.HTMLURL + "index.yaml"
+	fileName := gitRepo + "-index.yaml"
 
-	// Build fileName from fullPath
-	fileURL, err := url.Parse(fullURLFile)
-	if err != nil {
-		log.Fatal(err)
-	}
-	path := fileURL.Path
-	segments := strings.Split(path, "/")
-	fileName := gitRepo + "-" + segments[len(segments)-1]
-
-	// Create blank file
 	file, err := os.Create(fileName)
 	if err != nil {
 		log.Fatal(err)
@@ -107,16 +96,16 @@ func main() {
 	client := getAuthenticatedClient(ctx)
 	repos, _, _ := getOrgRepos(ctx, gitOwner, client)
 
-	for i, repo := range repos {
+	for i, gitRepo := range repos {
 		var gitRepoHelmIndex string
 
 		//check gh pages configured for repo
-		_, response, _ := client.Repositories.GetBranch(ctx, gitOwner, *repo.Name, "gh-pages", false)
+		_, response, _ := client.Repositories.GetBranch(ctx, gitOwner, *gitRepo.Name, "gh-pages", false)
 
 		if response.StatusCode == 200 {
-			if !strings.Contains(*repo.Name, "k8s-") {
-				fmt.Println(i, *repo.Name)
-				gitRepoHelmIndex = downloadProductHelmRepoIndex(ctx, client, gitOwner, *repo.Name)
+			if !strings.Contains(*gitRepo.Name, "k8s-") {
+				fmt.Println(i, *gitRepo.Name)
+				gitRepoHelmIndex = downloadProductHelmRepoIndex(ctx, client, gitOwner, *gitRepo.Name)
 				buildHelmRepoIndex(centralHelmIndex, gitRepoHelmIndex)
 				os.Remove(gitRepoHelmIndex)
 			}
