@@ -36,15 +36,17 @@ import (
 )
 
 func main() {
-	var gitOwner string
 	var centralHelmIndex string
+	var gitOwner string
+	var gitToken string
 
-	flag.StringVar(&gitOwner, "owner", "", "Specify GitHub User or Organization")
 	flag.StringVar(&centralHelmIndex, "indexFile", "", "Specify Helm Repository index file")
+	flag.StringVar(&gitOwner, "owner", "", "Specify GitHub User or Organization")
+	flag.StringVar(&gitToken, "token", "", "Specify GitHub Token")
 	flag.Parse()
 
 	ctx := context.Background()
-	client := getAuthenticatedClient(ctx)
+	client := getAuthenticatedClient(ctx, gitToken)
 	repos, _, _ := getOrgRepos(ctx, gitOwner, client)
 
 	for i, gitRepo := range repos {
@@ -61,9 +63,9 @@ func main() {
 	}
 }
 
-func getAuthenticatedClient(ctx context.Context) *github.Client {
+func getAuthenticatedClient(ctx context.Context, gitToken string) *github.Client {
 	ts := oauth2.StaticTokenSource(
-		&oauth2.Token{AccessToken: os.Getenv("GH_TOKEN")},
+		&oauth2.Token{AccessToken: gitToken},
 	)
 	tc := oauth2.NewClient(ctx, ts)
 
