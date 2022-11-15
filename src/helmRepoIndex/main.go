@@ -35,12 +35,12 @@ import (
 	"helm.sh/helm/v3/pkg/repo"
 )
 
-const centralHelmIndex = "charts/dev/index.yaml"
-
 func main() {
 	var gitOwner string
+	var centralHelmIndex string
 
 	flag.StringVar(&gitOwner, "owner", "", "Specify GitHub User or Organization")
+	flag.StringVar(&centralHelmIndex, "indexFile", "", "Specify Helm Repository index file")
 	flag.Parse()
 
 	ctx := context.Background()
