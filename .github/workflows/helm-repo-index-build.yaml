@@ -16,7 +16,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
-name: Build DEV Helm Repository
+name: Build Helm Repository - DEV
 
 on:
   schedule:
