@@ -22,17 +22,44 @@ package main
 
 import (
 	"context"
+	"flag"
 	"fmt"
-	"github.com/google/go-github/v48/github"
-	"golang.org/x/oauth2"
-	"helm.sh/helm/v3/pkg/repo"
 	"io"
 	"log"
 	"net/http"
 	"os"
-	"strings"
 	"time"
+
+	"github.com/google/go-github/v48/github"
+	"golang.org/x/oauth2"
+	"helm.sh/helm/v3/pkg/repo"
 )
+
+const centralHelmIndex = "charts/dev/index.yaml"
+
+func main() {
+	var gitOwner string
+
+	flag.StringVar(&gitOwner, "owner", "", "Specify GitHub User or Organization")
+	flag.Parse()
+
+	ctx := context.Background()
+	client := getAuthenticatedClient(ctx)
+	repos, _, _ := getOrgRepos(ctx, gitOwner, client)
+
+	for i, gitRepo := range repos {
+		var gitRepoHelmIndex string
+
+		//check gh pages configured for repo
+		_, response, _ := client.Repositories.GetBranch(ctx, gitOwner, *gitRepo.Name, "gh-pages", false)
+
+		if response.StatusCode == 200 {
+			fmt.Println(i, *gitRepo.Name)
+			gitRepoHelmIndex = downloadProductHelmRepoIndex(ctx, client, gitOwner, *gitRepo.Name)
+			buildHelmRepoIndex(centralHelmIndex, gitRepoHelmIndex)
+		}
+	}
+}
 
 func getAuthenticatedClient(ctx context.Context) *github.Client {
 	ts := oauth2.StaticTokenSource(
@@ -64,8 +91,18 @@ func downloadProductHelmRepoIndex(ctx context.Context, client *github.Client, gi
 	response, _ := http.Get(fullURLFile)
 	if response.StatusCode == 200 {
 		_, _ = io.Copy(file, response.Body)
-		response.Body.Close()
-		file.Close()
+
+		// Close response body
+		err := response.Body.Close()
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		// Close file
+		err = file.Close()
+		if err != nil {
+			log.Fatal(err)
+		}
 	}
 	return fileName
 }
@@ -76,39 +113,21 @@ func buildHelmRepoIndex(indexFile string, mergeIndexFile string) {
 		log.Fatal(err)
 	}
 
-	if fileStat, _ := os.Stat(mergeIndexFile); fileStat.Size() > 0 {
+	// merge index only if file has content and is not from local repository
+	if fileStat, _ := os.Stat(mergeIndexFile); fileStat.Size() > 0 && mergeIndexFile != "tractusx-release" {
 		newIndex, err := repo.LoadIndexFile(mergeIndexFile)
 		if err != nil {
 			log.Fatal(err)
 		}
 		repoFile.Merge(newIndex)
 		repoFile.Generated = time.Now()
-		repoFile.WriteFile(indexFile, 0644)
-		//os.Remove(mergeIndexFile)
-	}
-}
-
-const centralHelmIndex = "../../charts/dev/index.yaml"
-const gitOwner = "catenax-ng"
-
-func main() {
-	ctx := context.Background()
-	client := getAuthenticatedClient(ctx)
-	repos, _, _ := getOrgRepos(ctx, gitOwner, client)
-
-	for i, gitRepo := range repos {
-		var gitRepoHelmIndex string
-
-		//check gh pages configured for repo
-		_, response, _ := client.Repositories.GetBranch(ctx, gitOwner, *gitRepo.Name, "gh-pages", false)
-
-		if response.StatusCode == 200 {
-			if !strings.Contains(*gitRepo.Name, "k8s-") {
-				fmt.Println(i, *gitRepo.Name)
-				gitRepoHelmIndex = downloadProductHelmRepoIndex(ctx, client, gitOwner, *gitRepo.Name)
-				buildHelmRepoIndex(centralHelmIndex, gitRepoHelmIndex)
-				os.Remove(gitRepoHelmIndex)
-			}
+		err = repoFile.WriteFile(indexFile, 0644)
+		if err != nil {
+			log.Fatal(err)
 		}
+	}
+	err = os.Remove(mergeIndexFile)
+	if err != nil {
+		log.Fatal(err)
 	}
 }
