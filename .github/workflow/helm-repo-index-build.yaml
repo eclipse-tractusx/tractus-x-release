@@ -24,19 +24,13 @@ on:
   workflow_dispatch:
 
 jobs:
-
-  build:
+  repoIndex:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
-      - name: Set up Go
-        uses: actions/setup-go@v3
-        with:
-          go-version: 1.18
-
       - name: Run
-        run: go run src/helmRepoIndex/main.go
+        run: ./src/helmRepoIndex/helmRepoIndex -gitOwner ${{ github.repository_owner }} -indexFile "charts/dev/index.yaml"
 
       - name: Publish changes
         run: |
