@@ -23,7 +23,7 @@ on:
     branches:
       - 'main'
     paths:
-      - '**.go'
+      - 'src/helmRepoIndex/**.go'
   workflow_dispatch:
 
 jobs:
@@ -37,13 +37,21 @@ jobs:
         with:
           go-version-file: 'src/helmRepoIndex/go.mod'
 
+      - name: Create .github/bin
+        run: "[ ! -d .github/bin ] && mkdir .github/bin || echo '.github/bin already exists'"
+
       - name: Run
-        run: cd src/helmRepoIndex && go build -ldflags "-s -w"
+        run: go build -ldflags "-s -w" -o $GITHUB_WORKSPACE/.github/bin/
+        working-directory: src/helmRepoIndex
+
+      - name: debug
+        run: ls -laR .github
 
       - name: Publish changes
         run: |
+          pwd
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add src/helmRepoIndex/helmRepoIndex
-          git commit -m "build: build helmRepoIndex"
+          git add .github/bin/helmRepoIndex
+          git commit -m "chore: update dev helm repo index ($GITHUB_REF)"
           git push

@@ -30,12 +30,12 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Run
-        run: ./src/helmRepoIndex/helmRepoIndex -gitOwner ${{ github.repository_owner }} -token ${{ secrets.GITHUB_TOKEN }} -indexFile "charts/dev/index.yaml"
+        run: .github/bin/helmRepoIndex -gitOwner ${{ github.repository_owner }} -token ${{ secrets.GITHUB_TOKEN }} -indexFile "charts/dev/index.yaml"
 
       - name: Publish changes
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add charts/dev/index.yaml
-          git commit -m "chore: update dev helm repo index"
+          git commit -m "chore: update dev helm repo index, workflow run: $GITHUB_RUN_NUMBER"
           git push
