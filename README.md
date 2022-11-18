@@ -95,4 +95,4 @@ of product charts, that are tested to the best of our knowledge to work together
 
 ## Helm Repository
 
-For information about using the Tractus-X Helm repository, please refer to [this documentation](docs/helm-repsoitory.md).
+For information about using the Tractus-X Helm repository, please refer to the [charts](https://github.com/eclipse-tractusx/charts) repository.
