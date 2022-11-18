@@ -1,7 +1,7 @@
 # Tractus-X release
 
 This repository specifies details about overarching Tractus-X releases. It contains process definitions, as well as
-runtime-environment basic requirements, technical implementations for testing and packaging release artifacts.
+basic runtime-environment requirements, technical implementations for testing and packaging release artifacts.
 
 ## Schedule
 
