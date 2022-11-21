@@ -1,7 +1,7 @@
 # Eclipse Tractus-X
 
 This is the central [Eclipse Tractus-X](https://projects.eclipse.org/projects/automotive.tractusx) release repository.
-As Eclipse Tractus-X contains multiply components / products (mandatory, optional, decentralized), this repository reflects the
+As Eclipse Tractus-X contains multiply components / products, this repository reflects the
 unified official release of the Eclipse Tractus-X distribution.
 
 ## Minimum requirement

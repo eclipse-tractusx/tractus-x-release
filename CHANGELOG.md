@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Overarching Tractus-X releases are tested to the best of our knowledge. Test are performed on specific runtime
 configurations, which is documented per release.
 
+Tractus-X is sponsored by catena-X. For more information visit [catena.x.net](https://catena-x.net/).
+
 ## [2.0.0.RC1]
 
 Disclaimer: This is a test / demo release candidate only. 
@@ -27,5 +29,5 @@ Disclaimer: This is a test / demo release candidate only.
 
 ### Runtime
 
-- Tested on kubernetes versions: `1.22`
-- Tested with PostgreSQL versions: `1.11`
+- Tested on [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) versions: `1.22`
+- Tested with [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) versions: `1.11`
