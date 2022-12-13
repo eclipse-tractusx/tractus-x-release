@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-Overarching Tractus-X releases are tested to the best of our knowledge. Test are performed on specific runtime
+Overarching Tractus-X releases are tested to the best of our knowledge. Tests are performed on specific runtime
 configurations, which is documented per release.
 
 Tractus-X is sponsored by catena-X. For more information visit [catena.x.net](https://catena-x.net/).
