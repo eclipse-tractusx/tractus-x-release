@@ -12,6 +12,7 @@ Tractus-X is sponsored by catena-X. For more information visit [catena.x.net](ht
 Disclaimer: This is a test / demo release candidate only. 
 
 ### Added
+- [Eclipse Data Space Connector (EDC)](https://github.com/eclipse-tractusx/tractusx-edc), v0.1.2
 - [Portal (Registration)](https://github.com/eclipse-tractusx/portal-frontend-registration), v0.5.4 [unreleased]
 - [Golden Record Business Partner Number (BPN) Service](https://github.com/eclipse-tractusx/bpdm), v2.0.0
 - [Managed Identity Wallet](https://github.com/eclipse-tractusx/managed-identity-wallets), v0.5.2
@@ -23,6 +24,7 @@ Disclaimer: This is a test / demo release candidate only.
 - No execution of Load-, Performance- or Penetration Tests
 - No assignment of Export Control Classification Numbers (ECCN) to FOSS components
 - GeoBlocking recommended for Operations (GBaaS)
+- Released HelmChart missing for EDC v0.1.2
 
 ### Runtime
 
