@@ -1,18 +1,16 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+For background information visit [https://catena-x.net](https://catena-x.net).
 
-Overarching Tractus-X releases are tested to the best of our knowledge. Tests are performed on specific runtime
-configurations, which is documented per release.
+All notable changes on overarching level will be documented in this file. Refer to component repositories for specific content, changelog and documentation.
 
-Tractus-X is sponsored by catena-X. For more information visit [catena.x.net](https://catena-x.net/).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). Versions listed here refer to app versions.
+
 ## Unreleased
-- Portal (Registration), v0.5.4
-- Managed Identity Wallet (MIW), v0.5.2
+- [Portal (Registration)](https://github.com/eclipse-tractusx/portal-frontend-registration), v0.5.4
+- [Managed Identity Wallet](https://github.com/eclipse-tractusx/managed-identity-wallets) (MIW), v0.5.2
 
-## [2.0.0] 13-Dec-2022
-
-Disclaimer: This is a test / demo release candidate only. 
+## [2.0.0] 14-Dec-2022
 
 ### Added
 - [Eclipse Data Space Connector (EDC)](https://github.com/eclipse-tractusx/tractusx-edc), v0.1.2
