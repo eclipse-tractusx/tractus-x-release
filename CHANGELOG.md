@@ -6,11 +6,14 @@ All notable changes on overarching level will be documented in this file. Refer 
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). Versions listed here refer to app versions.
 
+Note: Versions listed in this log refer to the app version of the mentioned component, not the Helm Charts which install the app. Helm Charts
+may have version numbers which differ from the app version.
+
 ## Unreleased
 - [Portal (Registration)](https://github.com/eclipse-tractusx/portal-frontend-registration), v0.5.4
 - [Managed Identity Wallet](https://github.com/eclipse-tractusx/managed-identity-wallets) (MIW), v0.5.2
 
-## [2.0.0] 14-Dec-2022
+## [2.0.0] 2022-12-14
 
 ### Added
 - [Eclipse Data Space Connector (EDC)](https://github.com/eclipse-tractusx/tractusx-edc), v0.1.2
