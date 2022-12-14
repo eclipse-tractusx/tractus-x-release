@@ -4,7 +4,7 @@ For background information visit [https://catena-x.net](https://catena-x.net).
 
 All notable changes on overarching level will be documented in this file. Refer to component repositories for specific content, changelog and documentation.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). Versions listed here refer to app versions.
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 Note: Versions listed in this log refer to the app version of the mentioned component, not the Helm Charts which install the app. Helm Charts
 may have version numbers which differ from the app version.
@@ -28,7 +28,7 @@ may have version numbers which differ from the app version.
 - GeoBlocking recommended for Operations (GBaaS)
 - Portal (Registration) as well as Managed Identity Wallet scope required for full functionality; yet both are unreleased 
   at this point in time and can be expected with Release 2.1.0
-- Released HelmChart missing for EDC v0.1.2
+- Released Helm Chart missing for EDC v0.1.2; can be expected with Release 2.1.0
 
 ### Runtime
 
