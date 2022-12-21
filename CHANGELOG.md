@@ -13,7 +13,7 @@ may have version numbers which differ from the app version.
 
 - n/a
 
-## [2.1.0] - 21-Dec-2022
+## [2.1.0] - 2022-12-21
 
 ### Added
 
