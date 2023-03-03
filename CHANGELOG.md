@@ -11,7 +11,46 @@ may have version numbers which differ from the app version.
 
 ## Unreleased
 
-- n/a
+- Update of Simple Data Exchanger (SDE): new version expected in March 2023
+
+## [3.0.0] - 2023-03-03
+
+### Added
+- [Connector KIT](https://eclipse-tractusx.github.io/docs/category/connector-kit/), v1.0.0
+- [Business Partner KIT](https://eclipse-tractusx.github.io/docs/category/business-partner-kit/), v1.0.0
+- [Data Chain KIT](https://eclipse-tractusx.github.io/docs/kits/Data%20Chain%20Kit/data%20chain%20kit%20changelog/), v1.0.0
+- [Country Risk](https://github.com/eclipse-tractusx/vas-country-risk-frontend), Frontend v1.1.0, Backend v1.0.3
+- [Digital Product Pass](https://github.com/eclipse-tractusx/digital-product-pass), v0.4.6
+- [Trace-X Traceability Application](https://github.com/eclipse-tractusx/traceability-foss-frontend), v1.1.0
+
+### Changed
+- [Autosetup Service](https://github.com/eclipse-tractusx/autosetup-backend), Frontend v1.4.7, Backend v1.4.6
+- [Digital Twin Registry](https://github.com/eclipse-tractusx/sldt-digital-twin-registry), v0.2.0-M3-multi-tenancy
+- [Dynamic Attribute Provisioning Service (DAPS)](https://github.com/eclipse-tractusx/daps-helm-chart/), v1.7.1
+- [DAPS Registration Service](https://github.com/eclipse-tractusx/daps-registration-service/), v1.0.6
+- [Eclipse Data Space Connector (EDC)](https://github.com/eclipse-tractusx/tractusx-edc), v0.1.6
+- [Golden Record Business Partner Number (BPN) Service](https://github.com/eclipse-tractusx/bpdm), v3.0.3
+- [Item Relationship Service (IRS)](https://github.com/eclipse-tractusx/item-relationship-service), v2.3.0
+- [Managed Identity Wallet (MIW)](https://github.com/eclipse-tractusx/managed-identity-wallets), v3.3.2
+- [Portal](https://github.com/eclipse-tractusx/portal-frontend), v1.0.0 for Registration, Frontend, Backend and Assets
+- [Self Description (SD) Factory](https://github.com/eclipse-tractusx/sd-factory), v2.0.0
+- [Semantic Hub](https://github.com/eclipse-tractusx/sldt-semantic-hub), v0.1.0-M3
+
+### Known knowns
+- Relevant components and interfaces developed considering Gaia-X Trust Framework - 22.10
+Connection to an external Clearing House service for the entire Catena-X ecosystem required.
+The Gaia-X compliance service should generally be capable to recognize all companies that are able to register with the Catena-X Portal.
+- FOSS components developed and pre-tested to TRL6 with artificial test data only
+- No crosscheck of functionality in verification environment (Pre-PROD)
+- No execution of Load-, Performance- or Penetration Tests
+- No assignment of Export Control Classification Numbers (ECCN) to FOSS components
+- GeoBlocking recommended for Operations (GBaaS)
+- Security concept (overall) recommended for Operations
+
+### Runtime
+
+- Tested on [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) versions: `1.24.6`
+- Tested with [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) versions: `14`
 
 ## [2.1.0] - 2022-12-21
 
@@ -43,7 +82,7 @@ may have version numbers which differ from the app version.
 ### Runtime
 
 - Tested on [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) versions: `1.24.3`
-- Tested with [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) versions: `1.11`
+- Tested with [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) versions: `14`
 
 ## [2.0.0] - 2022-12-14
 
@@ -66,4 +105,4 @@ may have version numbers which differ from the app version.
 ### Runtime
 
 - Tested on [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) versions: `1.24.3`
-- Tested with [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) versions: `1.11`
+- Tested with [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) versions: `14`
