@@ -37,9 +37,9 @@ may have version numbers which differ from the app version.
 - [Semantic Hub](https://github.com/eclipse-tractusx/sldt-semantic-hub), v0.1.0-M3
 
 ### Known knowns
-- Relevant components and interfaces developed considering Gaia-X Trust Framework - 22.10
-Connection to an external Clearing House service for the entire Catena-X ecosystem required.
-The Gaia-X compliance service should generally be capable to recognize all companies that are able to register with the Catena-X Portal.
+- Relevant components and interfaces developed considering [Gaia-X](https://gaia-x.eu/) Trust Framework - 22.10\
+  Connection to an external Clearing House service for the entire Catena-X ecosystem required.\
+  The [Gaia-X](https://gaia-x.eu/) compliance service should generally be capable to recognize all companies that are able to register with the Catena-X Portal.
 - FOSS components developed and pre-tested to TRL6 with artificial test data only
 - No crosscheck of functionality in verification environment (Pre-PROD)
 - No execution of Load-, Performance- or Penetration Tests
