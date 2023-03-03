@@ -27,7 +27,7 @@ may have version numbers which differ from the app version.
 - [Autosetup Service](https://github.com/eclipse-tractusx/autosetup-backend), Frontend v1.4.7, Backend v1.4.6
 - [Digital Twin Registry](https://github.com/eclipse-tractusx/sldt-digital-twin-registry), v0.2.0-M3-multi-tenancy
 - [Dynamic Attribute Provisioning Service (DAPS)](https://github.com/eclipse-tractusx/daps-helm-chart/), v1.7.1
-- [DAPS Registration Service](https://github.com/eclipse-tractusx/daps-registration-service/), v1.0.6
+- [DAPS Registration Service](https://github.com/eclipse-tractusx/daps-registration-service/), v1.0.5
 - [Eclipse Data Space Connector (EDC)](https://github.com/eclipse-tractusx/tractusx-edc), v0.1.6
 - [Golden Record Business Partner Number (BPN) Service](https://github.com/eclipse-tractusx/bpdm), v3.0.3
 - [Item Relationship Service (IRS)](https://github.com/eclipse-tractusx/item-relationship-service), v2.3.0
