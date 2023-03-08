@@ -15,26 +15,67 @@ may have version numbers which differ from the app version.
 
 ## [3.0.0] - 2023-03-03
 
-### Added
-- [Connector KIT](https://eclipse-tractusx.github.io/docs/category/connector-kit/), v1.0.0
-- [Business Partner KIT](https://eclipse-tractusx.github.io/docs/category/business-partner-kit/), v1.0.0
-- [Data Chain KIT](https://eclipse-tractusx.github.io/docs/kits/Data%20Chain%20Kit/data%20chain%20kit%20changelog/), v1.0.0
-- [Country Risk](https://github.com/eclipse-tractusx/vas-country-risk-frontend), Frontend v1.1.0, Backend v1.0.3
-- [Digital Product Pass](https://github.com/eclipse-tractusx/digital-product-pass), v0.4.6
-- [Trace-X Traceability Application](https://github.com/eclipse-tractusx/traceability-foss-frontend), v1.1.0
 
-### Changed
-- [Autosetup Service](https://github.com/eclipse-tractusx/autosetup-backend), Frontend v1.4.7, Backend v1.4.6
-- [Digital Twin Registry](https://github.com/eclipse-tractusx/sldt-digital-twin-registry), v0.2.0-M3-multi-tenancy
-- [Dynamic Attribute Provisioning Service (DAPS)](https://github.com/eclipse-tractusx/daps-helm-chart/), v1.7.1
-- [DAPS Registration Service](https://github.com/eclipse-tractusx/daps-registration-service/), v1.0.5
-- [Eclipse Data Space Connector (EDC)](https://github.com/eclipse-tractusx/tractusx-edc), v0.1.6
-- [Golden Record Business Partner Number (BPN) Service](https://github.com/eclipse-tractusx/bpdm), v3.0.3
-- [Item Relationship Service (IRS)](https://github.com/eclipse-tractusx/item-relationship-service), v2.3.0
-- [Managed Identity Wallet (MIW)](https://github.com/eclipse-tractusx/managed-identity-wallets), v3.3.2
-- [Portal](https://github.com/eclipse-tractusx/portal-frontend), v1.0.0 for Registration, Frontend, Backend and Assets
-- [Self Description (SD) Factory](https://github.com/eclipse-tractusx/sd-factory), v2.0.0
-- [Semantic Hub](https://github.com/eclipse-tractusx/sldt-semantic-hub), v0.1.0-M3
+### Products / Components
+- [Autosetup Service](https://github.com/eclipse-tractusx/autosetup-backend) (Upgraded)
+  - Helm Chart v1.1.5
+  - Frontend v1.0.1 -> [v1.4.7](https://github.com/eclipse-tractusx/autosetup-backend/releases/tag/autosetup-1.1.5)
+  - Backend v1.0.1 -> [v1.4.6](https://github.com/eclipse-tractusx/autosetup-backend/releases/tag/autosetup-1.1.5)
+- [Country Risk](https://github.com/eclipse-tractusx/vas-country-risk-frontend) (New)
+  - Helm Chart v1.0.0
+  - Frontend [v1.1.0](https://github.com/eclipse-tractusx/vas-country-risk-frontend/releases/tag/v1.1.0)
+  - Backend v1.0.3
+- [Digital Product Pass](https://github.com/eclipse-tractusx/digital-product-pass) (New)
+  - v0.4.6
+- [Digital Twin Registry](https://github.com/eclipse-tractusx/sldt-digital-twin-registry) (Upgraded)
+  - v0.2.0-M3-multi-tenancy
+- [Dynamic Attribute Provisioning Service (DAPS)](https://github.com/eclipse-tractusx/daps-helm-chart/) (Upgraded)
+  - v1.7.1
+- [DAPS Registration Service](https://github.com/eclipse-tractusx/daps-registration-service/) (Upgraded)
+  - v1.0.5
+- [Eclipse Data Space Connector (EDC)](https://github.com/eclipse-tractusx/tractusx-edc) (Upgraded)
+  - v0.1.6
+- [Golden Record Business Partner Number (BPN) Service](https://github.com/eclipse-tractusx/bpdm) (Upgraded)
+  - v3.0.3
+- [Item Relationship Service (IRS)](https://github.com/eclipse-tractusx/item-relationship-service) (Upgraded)
+  - v2.3.0
+- [Managed Identity Wallet (MIW)](https://github.com/eclipse-tractusx/managed-identity-wallets) (Upgraded)
+  - v3.3.2
+- [Portal](https://github.com/eclipse-tractusx/portal-frontend) (Upgraded)
+  - v1.0.0 for Registration, 
+  - Frontend, 
+  - Backend
+- [Self Description (SD) Factory](https://github.com/eclipse-tractusx/sd-factory) (Upgraded)
+  - v2.0.0
+- [Semantic Hub](https://github.com/eclipse-tractusx/sldt-semantic-hub) (Upgraded)
+  - v0.1.0-M3
+- [Trace-X Traceability Application](https://github.com/eclipse-tractusx/traceability-foss-frontend) (New)
+  - v1.1.0
+
+| Component                                           |     Version      | Helm Chart Version |
+|-----------------------------------------------------|:----------------:|:------------------:|
+| Autosetup Service                                   | [v1.1.5](v1.1.5) |  [v1.1.5](v1.1.5)  |
+| Country Risk                                        | [v1.1.5](v1.1.5) |  [v1.1.5](v1.1.5)  |
+| Digital Product Pass                                | [v1.1.5](v1.1.5) |  [v1.1.5](v1.1.5)  |
+| Digital Twin Registry                               | [v1.1.5](v1.1.5) |  [v1.1.5](v1.1.5)  |
+| Dynamic Attribute Provisioning Service (DAPS)       |    [v1.7.1]()    |       [v]()        |
+| DAPS Registration Service                           |    [v1.0.5]()    |       [v]()        |
+| Eclipse Data Space Connector (EDC)                  |    [v0.1.6]()    |       [v]()        |
+| Golden Record Business Partner Number (BPN) Service |    [v3.0.3]()    |       [v]()        |
+| Item Relationship Service (IRS)                     |    [v2.3.0]()    |       [v]()        |
+| Managed Identity Wallet (MIW)                       |    [v3.3.2]()    |       [v]()        |
+| Portal                                              |    [v1.0.0]()    |       [v]()        |
+| Self Description (SD) Factory                       |    [v2.0.0]()    |       [v]()        |
+| Semantic Hub                                        |  [v0.1.0-M3]()   |       [v]()        |
+| Trace-X Traceability Application                    |    [v1.1.0]()    |       [v]()        |
+
+
+
+### Kits
+- [Connector KIT](https://eclipse-tractusx.github.io/docs/category/connector-kit/) (New), v1.0.0
+- [Business Partner KIT](https://eclipse-tractusx.github.io/docs/category/business-partner-kit/) (New), v1.0.0
+- [Data Chain KIT](https://eclipse-tractusx.github.io/docs/kits/Data%20Chain%20Kit/data%20chain%20kit%20changelog/) (New), v1.0.0
+
 
 ### Known knowns
 - Relevant components and interfaces developed considering [Gaia-X](https://gaia-x.eu/) Trust Framework - 22.10\
