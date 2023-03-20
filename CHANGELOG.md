@@ -29,7 +29,7 @@ Note: Helm Charts may have version numbers which differ from the app version.
 
 | Component                                                                        |                                                        Helm Chart (s)                                                         |                                                                                 App Version (s)                                                                                 |
 |----------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [Simple Data Exchanger (SDE)](https://github.com/eclipse-tractusx/dft-frontend)  | dftfrontend: [1.9.0]()<br/>dftbackend: [1.9.0](https://github.com/eclipse-tractusx/dft-backend/releases/tag/dftbackend-1.9.0) | Frontend: [1.9.0](https://github.com/eclipse-tractusx/dft-frontend/releases/tag/1.9.0)<br/>Backend: [1.9.0](https://github.com/eclipse-tractusx/dft-backend/releases/tag/1.9.0) |
+| [Simple Data Exchanger (SDE)](https://github.com/eclipse-tractusx/dft-frontend)  | dftfrontend: [1.9.0](https://github.com/eclipse-tractusx/dft-frontend/releases/tag/dftfrontend-1.9.0)<br/>dftbackend: [1.9.0](https://github.com/eclipse-tractusx/dft-backend/releases/tag/dftbackend-1.9.0) | Frontend: [1.9.0](https://github.com/eclipse-tractusx/dft-frontend/releases/tag/1.9.0)<br/>Backend: [1.9.0](https://github.com/eclipse-tractusx/dft-backend/releases/tag/1.9.0) |
 
 ### Unchanged
 
