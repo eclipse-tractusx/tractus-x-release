@@ -20,10 +20,10 @@ Note: Helm Charts may have version numbers which differ from the app version.
 
 ### Fixed
 
-| Component                                                                                    | Helm Chart (s)                                                                                                                               | App Version (s)                                                                           |
-|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| [Autosetup Service](https://github.com/eclipse-tractusx/autosetup-backend)                   | autosetup: [1.2.0](https://github.com/eclipse-tractusx/autosetup-backend/releases/tag/autosetup-1.2.0)                                       | [1.2.0](https://github.com/eclipse-tractusx/autosetup-backend/releases/tag/1.2.0)         |
-| [DAPS Registration Service](https://github.com/eclipse-tractusx/daps-registration-service/)  | daps-reg-service: [2.0.0](https://github.com/eclipse-tractusx/daps-registration-service/releases/tag/daps-reg-service-2.0.0)                 | [2.0.0](https://github.com/eclipse-tractusx/daps-registration-service/releases/tag/2.0.0) |
+| Component                                                                                    | Helm Chart (s)                                                                                                                               |                                       App Version (s)                                       |
+|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------:|
+| [Autosetup Service](https://github.com/eclipse-tractusx/autosetup-backend)                   | autosetup: [1.2.0](https://github.com/eclipse-tractusx/autosetup-backend/releases/tag/autosetup-1.2.0)                                       |      [1.2.0](https://github.com/eclipse-tractusx/autosetup-backend/releases/tag/1.2.0)      |
+| [DAPS Registration Service](https://github.com/eclipse-tractusx/daps-registration-service/)  | daps-reg-service: [2.0.0](https://github.com/eclipse-tractusx/daps-registration-service/releases/tag/daps-reg-service-2.0.0)                 |  [2.0.0](https://github.com/eclipse-tractusx/daps-registration-service/releases/tag/2.0.0)  |
 
 ### Changed
 
