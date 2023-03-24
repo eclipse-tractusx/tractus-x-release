@@ -12,7 +12,7 @@ Note: Helm Charts may have version numbers which differ from the app version.
 
 - n/a
 
-## [3.0.1] - 2023-03-20
+## [3.0.1] - 2023-03-24
 
 ### Added
 
@@ -29,7 +29,7 @@ Note: Helm Charts may have version numbers which differ from the app version.
 
 | Component                                                                       |                                                                                                Helm Chart (s)                                                                                                |                                                                                 App Version (s)                                                                                 |
 |---------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [Simple Data Exchanger (SDE)](https://github.com/eclipse-tractusx/dft-frontend) | dftfrontend: [1.9.0](https://github.com/eclipse-tractusx/dft-frontend/releases/tag/dftfrontend-1.9.0)<br/>dftbackend: [1.9.0](https://github.com/eclipse-tractusx/dft-backend/releases/tag/dftbackend-1.9.0) | Frontend: [1.9.0](https://github.com/eclipse-tractusx/dft-frontend/releases/tag/1.9.0)<br/>Backend: [1.9.0](https://github.com/eclipse-tractusx/dft-backend/releases/tag/1.9.0) |
+| [Simple Data Exchanger (SDE)](https://github.com/eclipse-tractusx/dft-frontend) | dftfrontend: [1.9.0](https://github.com/eclipse-tractusx/dft-frontend/releases/tag/dftfrontend-1.9.0)<br/>dftbackend: [1.9.1](https://github.com/eclipse-tractusx/dft-backend/releases/tag/dftbackend-1.9.1) | Frontend: [1.9.0](https://github.com/eclipse-tractusx/dft-frontend/releases/tag/1.9.0)<br/>Backend: [1.9.1](https://github.com/eclipse-tractusx/dft-backend/releases/tag/1.9.1) |
 
 ### Unchanged
 
@@ -53,9 +53,9 @@ Note: Helm Charts may have version numbers which differ from the app version.
 
 ### Known knowns
 
-- Relevant components and interfaces developed considering Gaia-X Trust Framework - 22.10
+- Relevant components and interfaces developed considering [Gaia-X](https://gaia-x.eu/) Trust Framework - 22.10
 Connection to an external Clearing House service for the entire Catena-X ecosystem required.
-The Gaia-X compliance service should generally be capable to recognize all companies that are able to register with the Catena-X Portal.
+The [Gaia-X](https://gaia-x.eu/) compliance service should generally be capable to recognize all companies that are able to register with the Catena-X Portal.
 - FOSS components developed and pre-tested to TRL6 with artificial test data only
 - No crosscheck of functionality in verification environment (Pre-PROD)
 - No execution of Load-, Performance- or Penetration Tests
