@@ -10,7 +10,7 @@ Eclipse Tractus-X components are based on modern cloud technology and require a 
 
 ## How to install Eclipse Tractus-X
 
-All components are based on [Helm](https://helm.sh/) Charts. To find the right versions of them, see our overarching [CHANGELOG.md](CHANGELOG.md) for versions which have been tested and released together and are compatible to each other. All components have their own installation guides.
+All components are based on [Helm](https://helm.sh/) Charts. To find the right versions of them, see our overarching [CHANGELOG.md](CHANGELOG.md) for versions which are compatible with each other because they have been tested and released together. All components have their own installation guides.
 
 ## Schedule
 
