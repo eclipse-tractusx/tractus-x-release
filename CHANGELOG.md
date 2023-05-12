@@ -12,6 +12,10 @@ Note: Helm Charts may have version numbers which differ from the app version.
 
 - n/a
 
+## [3.1.0] - 2023-05-17
+
+WIP
+
 ## [3.0.1] - 2023-03-24
 
 ### Added
