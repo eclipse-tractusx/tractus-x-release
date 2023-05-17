@@ -72,6 +72,16 @@ Note: Helm Charts may have version numbers which differ from the app version.
 - Tested on [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) versions: `1.24.6`
 - Tested with [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) versions: `14`
 
+### Using helm with central helm registry
+
+You can search all released helm charts with the following commands:
+```shell
+helm repo add tractusx-dev https://eclipse-tractusx.github.io/charts/dev
+helm repo update tractusx-dev
+helm search repo tractusx-dev --versions
+```
+For installation details, please see the referenced Repositories / Releases.
+
 
 ## [3.0.1] - 2023-03-24
 
