@@ -65,7 +65,7 @@ Note: Helm Charts may have version numbers which differ from the app version.
 - GeoBlocking recommended for Operations (GBaaS)
 - Security concept (overall) recommended for Operations
 - Managed Identity Wallet (MIW) version 3.3.2 has passed all functional tests with the current Release package; yet this version faces a Security vulnerability with regards to libraries used (CVE-2023-0464, GHSA-fj2w-wfgv-mwq6).
-  These issues have been addressed in MIW version 3.3.3 (no other functional changes); however MIW 3.3.3 is not part of this release.
+  These issues have been addressed in MIW version 3.3.3 (no other functional changes); however [MIW](https://github.com/eclipse-tractusx/managed-identity-wallets) 3.3.3 is not part of this release.
 
 ### Runtime
 
