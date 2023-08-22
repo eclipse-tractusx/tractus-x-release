@@ -1,0 +1,6 @@
+product: "Tractus-X-Release"
+leadingRepository: "https://github.com/eclipse-tractusx/tractus-x-release"
+repositories:
+- name: "tractus-x-release"
+  usage: "This is the central Eclipse Tractus-X release repository."
+  url: "https://github.com/eclipse-tractusx/tractus-x-release"
