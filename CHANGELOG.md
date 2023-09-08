@@ -2,7 +2,7 @@
 
 The overarching project is guided by [https://catena-x.net](https://catena-x.net) and all development work is covered in [https://eclipse-tractusx.github.io](https://eclipse-tractusx.github.io/).
 
-All notable changes on overarching level will be documented in this file. Refer to component repositories for specific content, changelog and documentation.
+All notable changes on the overarching level will be documented in this file. Refer to component repositories for specific content, changelog and documentation.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
@@ -65,10 +65,10 @@ Tractus-X has switched to YY.0M.MICRO [Calendar Versioning](https://calver.org/)
 ### Known knowns
 
 - Relevant components and interfaces developed considering Gaia-X Trust Framework - 22.10\
-  Connection to an external Clearing House service for the entire Catena-X ecosystem required. The Gaia-X compliance service should generally be capable to recognize all companies that are able to register with the Catena-X Portal.
-- Conformity to [Asset Administration Shell v3.0](https://industrialdigitaltwin.org/wp-content/uploads/2023/04/IDTA-01002-3-0_SpecificationAssetAdministrationShell_Part2_API.pdf), [API live example](https://app.swaggerhub.com/apis/Plattform_i40/AssetAdministrationShellRegistryServiceSpecification/V3.0_SSP-001#/Asset%20Administration%20Shell%20Registry%20API/GetAssetAdministrationShellDescriptorById) (AAS) is given. For compatibility reasons, an older version of the DTR query interface “/query” will additionally be supported until end of 2023. Details can be found in the [changelog](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/blob/main/CHANGELOG.md) of the respective component.
+  Connection to an external Clearing House service for the entire Catena-X ecosystem is required. The Gaia-X compliance service should generally be capable of recognizing all companies that are able to register with the Catena-X Portal.
+- Conformity to [Asset Administration Shell v3.0](https://industrialdigitaltwin.org/wp-content/uploads/2023/04/IDTA-01002-3-0_SpecificationAssetAdministrationShell_Part2_API.pdf), [API live example](https://app.swaggerhub.com/apis/Plattform_i40/AssetAdministrationShellRegistryServiceSpecification/V3.0_SSP-001#/Asset%20Administration%20Shell%20Registry%20API/GetAssetAdministrationShellDescriptorById) (AAS) is given. For compatibility reasons, an older version of the DTR query interface “/query” will additionally be supported until the end of 2023. Details can be found in the [changelog](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/blob/main/CHANGELOG.md) of the respective component.
 - Country Risk was not verified in combination with the current Release package. Use at your own risk. The component will either be deprecated or fully re-integrated in the next Release.
-- Traceability KIT was not verified in combination with the current Release package and is only compatible with Catena-X Standards as specified. Use at your own risk at this time, but expect an updated KIT version in the near future.
+- Traceability KIT was not verified in combination with the current Release package and is only compatible with Catena-X Standards as specified. Use at your own risk at this time, but expect an updated KIT version shortly.
 - FOSS components developed and pre-tested to TRL6 with artificial test data only
 - No crosscheck of functionality in verification environment (STABLE, Pre-PROD)
 - No execution of Load-, Performance- or Penetration Tests
