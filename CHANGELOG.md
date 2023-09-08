@@ -78,7 +78,7 @@ Tractus-X has switched to YY.0M.MICRO [Calendar Versioning](https://calver.org/)
 
 ### Runtime
 
-- Tested on [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) versions: `1.24.6`
+- Tested on [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) versions: `1.25.6`
 - Tested with [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) versions: `15`
 
 ### Using helm with central helm registry
