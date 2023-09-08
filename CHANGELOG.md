@@ -1,6 +1,6 @@
 # Changelog
 
-The overarching project is guided by [https://catena-x.net](https://catena-x.net) and all development work is covered in [https://eclipse-tractusx.github.io/](https://eclipse-tractusx.github.io/).
+The overarching project is guided by [https://catena-x.net](https://catena-x.net) and all development work is covered in [https://eclipse-tractusx.github.io](https://eclipse-tractusx.github.io/).
 
 All notable changes on overarching level will be documented in this file. Refer to component repositories for specific content, changelog and documentation.
 
