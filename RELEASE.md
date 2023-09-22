@@ -10,7 +10,7 @@ The release process describes manual and automated steps, that are performed to 
 
 Tractus-X products are individually developed and therefore no strict workflow is enforced. To ensure a consistent view on releases, the following aspects should still be met:
 
-- A CHANGELOG.md file, that follows keep a changelog recommendations is maintained and updated with descriptions for the current release. Links to GitHub external artifacts (i.e. mvncentral or Docker Hub) are referenced
+- A CHANGELOG.md file, that follows [keep a changelog](https://keepachangelog.com/en/1.0.0/) recommendations is maintained and updated with descriptions for the current release. Links to GitHub external artifacts (i.e. mvncentral or Docker Hub) are referenced
 - [GitHub releases](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) are used to publish artifacts. Git tags are added accordingly (usually done automatically)
 - The changelog content of the current release is documented in the GitHub release
 - Helm charts are released into the aligned helm chart repository
@@ -71,6 +71,7 @@ Eclipse Tratcus-X Project Leads
 Tractus-X products are released in multiple formats. The number of artifacts and its format varies between individual product and the overarching releases.
 
 ### Product release artifacts
+
 The following sections describe some common formats of release artifacts used by Tractus-X products.
 
 #### Sourcecode
@@ -87,7 +88,7 @@ Feel free to use them on your own risk, all images can be build by yourself thro
 
 Applications developed in the Tractus-X context typically provide a [Helm chart](https://helm.sh/) for easy deployment on [kubernetes](https://kubernetes.io/).
 
-To add a Helm chart as a release artifact it has to be packaged. There are multiple tools, that help packaging charts. We recommend using the chart-releaser-action GitHub action though, since together with activated GitHub pages, it can transform your repository to function as Helm chart repository on its own.
+To add a Helm chart as a release artifact it has to be packaged. There are multiple tools, that help packaging charts. We recommend using the chart-releaser-action GitHub action though, since together with activated [GitHub pages](https://pages.github.com/), it can transform your repository to function as Helm chart repository on its own.
 
 Additionally, Tractus-X offers a central Helm chart repository. It supports two channels for released Helm charts - `dev` and `stable`.
 
@@ -101,4 +102,4 @@ The `stable` channel is used by the releaese management group, to publish all he
 
 ## Helm Repository
 
-For information about using the Tractus-X Helm repository, please refer to the charts repository.
+For information about using the Tractus-X Helm repository, please refer to the [charts](https://github.com/eclipse-tractusx/charts) repository.
