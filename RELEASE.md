@@ -17,7 +17,7 @@ Tractus-X products are individually developed and therefore no strict workflow i
 
 ### Overarching Release Process
 
-The overarching Tractus-X releases are coordinated by the release managment group (refer to sig-release). This team collaborates with the currently released versions of Tractus-X products to formulate the overarching release.
+The overarching Tractus-X releases are coordinated by the release managment group (refer to [sig-release](https://github.com/eclipse-tractusx/sig-release#sig-release)). This team collaborates with the currently released versions of Tractus-X products to formulate the overarching release.
 
 #### Pre-requisits
 
