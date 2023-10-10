@@ -17,13 +17,13 @@ Tractus-X products are individually developed and therefore no strict workflow i
 
 ### Overarching Release Process
 
-The overarching Tractus-X releases are coordinated by the release managment group (refer to [sig-release](https://github.com/eclipse-tractusx/sig-release#sig-release)). This team collaborates with the currently released versions of Tractus-X products to formulate the overarching release.
+The overarching Tractus-X releases are coordinated by the release management group (refer to [sig-release](https://github.com/eclipse-tractusx/sig-release#sig-release)). This team collaborates with the currently released versions of Tractus-X products to formulate the overarching release.
 
-#### Pre-requisits
+#### Pre-requisites
 
 - __!!!__ If the last release, approved by the Eclipse Foundation, is more than a year old, you have to initiate a new release on the [Eclipse Tractus-X Project page](https://projects.eclipse.org/projects/automotive.tractusx) at least a week prior to the planned release date (see the [Release steps](#release-steps))
 - Helm chart versions and app versions for all products intended for the release
-- An official announcement text highlightning release features, vitual for the announcement email
+- An official announcement text highlighting release features, vital for the announcement email
 - An optional official announcement image usable for the Eclipse Tractus-X Project page
 
 #### Release Steps
@@ -36,7 +36,7 @@ The overarching Tractus-X releases are coordinated by the release managment grou
 - Insert the new changelog entry under versions on the [eclipse-tractusx changelog page](https://eclipse-tractusx.github.io/CHANGELOG/)
 - Register a new Tractus-X Release on the [Eclipse Tractus-X Project page](https://projects.eclipse.org/projects/automotive.tractusx) (Navigate to the Create new release button/link on the right side)
 - Modify the Download section on the [Eclipse Tractus-X Project page](https://projects.eclipse.org/projects/automotive.tractusx) via the Downloads, Software Repositories, and Marketplace -> Downloads Message section
-- Compose an email to the [tractusx-dev mailinglist](mailto:tractusx-dev@eclipse.org) announcing the new release
+- Compose an email to the [tractusx-dev mailing list](mailto:tractusx-dev@eclipse.org) announcing the new release
 - Example:
 
 ```
