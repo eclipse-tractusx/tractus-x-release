@@ -6,6 +6,38 @@ All notable changes on the overarching level will be documented in this file. Re
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [24.03] - UNRELEASED
+
+Our `24.03` release is already in planning phase. The issues are included on our [Release Planning Board](https://github.com/orgs/eclipse-tractusx/projects/26/views/9) and marked with the `Prep-PI11` label.
+The following features are planned to be included:
+
+- Integration of further aspect models in asBuilt lifecycle [#221](https://github.com/eclipse-tractusx/sig-release/issues/221)
+- Logging: Agreement Log [#253](https://github.com/eclipse-tractusx/sig-release/issues/253)
+- ...
+
+
+## [23.12] - UNRELEASED
+
+The `23.12` release is already going through our quality ensurance process. The issues are included on our [Release Planning Board](https://github.com/orgs/eclipse-tractusx/projects/26/views/9) and marked with the `Prep-PI10` label.
+Features under test:
+
+- NoN: User Provisioning/SSO for Catena-X from an existing network [eclipse-tractusx/portal-assets#100](https://github.com/eclipse-tractusx/portal-assets/issues/100)
+- ...
+
+
+## [23.09.1] - UNRELEASED
+
+We are releasnig a patch version of our `23.09` release. The following cirtical issues have been identified.
+
+### Disclaimer
+
+The bugfix for MIW COULD NOT BE isolated, so the fixed version does also include features. We DID NOT perform an overall end-to-end testing, like we do for regular releases.
+You can follow [this discussion](https://github.com/eclipse-tractusx/sig-release/discussions) for expert assesemnt on the impact, the new MIW version has on the overall landscape
+
+### Fixed issues
+
+- MIW: Rate limiting during json-Id context loading. Fixed via [PR #100](https://github.com/eclipse-tractusx/managed-identity-wallet/pull/100) and included in MIW version [`0.2.0`](https://github.com/eclipse-tractusx/managed-identity-wallet/releases/tag/v0.2.0)
+
 
 ## [23.09] - 2023-09-08
 
@@ -286,7 +318,7 @@ For installation details, please see the referenced Repositories / Releases.
 
 - Developed considering [Gaia-X](https://gaia-x.eu/) Trust Framework - 22.04
 - FOSS components developed and pre-tested to TRL6 with artificial test data only
-- Restricted crosscheck of functionality in verification environment:  
+- Restricted crosscheck of functionality in verification environment:
   Smoke-tests did not verify
   - Approval of company registration
   - Mutiple user onboarding
@@ -315,7 +347,7 @@ For installation details, please see the referenced Repositories / Releases.
 - No execution of Load-, Performance- or Penetration Tests
 - No assignment of Export Control Classification Numbers (ECCN) to FOSS components
 - GeoBlocking recommended for Operations (GBaaS)
-- Portal (Registration) as well as Managed Identity Wallet scope required for full functionality; yet both are unreleased 
+- Portal (Registration) as well as Managed Identity Wallet scope required for full functionality; yet both are unreleased
   at this point in time and can be expected with Release 2.1.0
 - Released Helm Chart missing for EDC v0.1.2; can be expected with Release 2.1.0
 
