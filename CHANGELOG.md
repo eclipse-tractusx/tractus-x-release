@@ -2,6 +2,8 @@
 
 The overarching project is guided by [https://catena-x.net](https://catena-x.net) and all development work is covered in [https://eclipse-tractusx.github.io](https://eclipse-tractusx.github.io/).
 
+The official changelog, including compatibility matrices for Tractus-X releases, can be found at [https://eclipse-tractusx.github.io/changelog](https://eclipse-tractusx.github.io/changelog).
+
 All notable changes on the overarching level will be documented in this file. Refer to component repositories for specific content, changelog and documentation.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
