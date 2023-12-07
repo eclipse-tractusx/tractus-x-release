@@ -59,12 +59,12 @@ Tractus-X has switched to YY.0M.MICRO [Calendar Versioning](https://calver.org/)
 | [Discovery Finder](https://github.com/eclipse-tractusx/sldt-discovery-finder)                                                           | discoveryfinder: [0.1.11](https://github.com/eclipse-tractusx/sldt-discovery-finder/releases/tag/discoveryfinder-0.1.11) |                    [v0.2.4-M1](https://github.com/eclipse-tractusx/sldt-discovery-finder/releases/tag/v0.2.4-M1)                    |
 | [Eco Pass KIT](https://eclipse-tractusx.github.io/docs-kits/category/eco-pass-kit)                                                      |                                                           n/a                                                            |                          [0.1.0](https://eclipse-tractusx.github.io/docs-kits/kits/Eco_Pass_KIT/changelog)                          |
 | [OSim KIT](https://eclipse-tractusx.github.io/docs-kits/category/osim-kit)                                                              |                                                           n/a                                                            |                    [1.0.0](https://eclipse-tractusx.github.io/docs-kits/kits/OSim%20Kit/OSim%20Kit%20Changelog)                     |
-| [Product Carbon Footprint (PCF) PCF KIT](https://eclipse-tractusx.github.io/docs-kits/category/pcf-exchange-kit)                                                       |                                                           n/a                                                            |          [0.1.0](https://eclipse-tractusx.github.io/docs-kits/kits/PCF%20Exchange%20Kit/PCF%20Exchange%20Kit%20Changelog)           |
+| [Product Carbon Footprint (PCF) KIT](https://eclipse-tractusx.github.io/docs-kits/category/pcf-exchange-kit)                                                       |                                                           n/a                                                            |          [0.1.0](https://eclipse-tractusx.github.io/docs-kits/kits/PCF%20Exchange%20Kit/PCF%20Exchange%20Kit%20Changelog)           |
 | [Behavioral Twin: Remaining useful Life (RUL) KIT](https://eclipse-tractusx.github.io/docs-kits/category/remaining-useful-life-rul-kit) |                                                           n/a                                                            | [0.1.1](https://eclipse-tractusx.github.io/docs-kits/kits/Behaviour%20Twin%20RuL%20Kit/Changelog%20Remaining%20Useful%20Life%20Kit) |
 
 ### Deprecated
 
-| Component                                                                                             |
+| No Components                                                                                             |
 |-------------------------------------------------------------------------------------------------------|
 
 
@@ -72,11 +72,13 @@ Tractus-X has switched to YY.0M.MICRO [Calendar Versioning](https://calver.org/)
 
 - Relevant components and interfaces developed considering Gaia-X Trust Framework - 22.10\
   Connection to an external Clearing House service for the entire Catena-X ecosystem is required. The Gaia-X compliance service should generally be capable of recognizing all companies that are able to register with the Catena-X Portal.
-- Conformity to [Asset Administration Shell v3.0](https://industrialdigitaltwin.org/wp-content/uploads/2023/04/IDTA-01002-3-0_SpecificationAssetAdministrationShell_Part2_API.pdf), [API live example](https://app.swaggerhub.com/apis/Plattform_i40/AssetAdministrationShellRegistryServiceSpecification/V3.0_SSP-001#/Asset%20Administration%20Shell%20Registry%20API/GetAssetAdministrationShellDescriptorById) (AAS) is given. For compatibility reasons, an older version of the DTR query interface “/query” will additionally be supported until the end of 2023. Details can be found in the [changelog](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/blob/main/CHANGELOG.md) of the respective component.
-- placeholder: MIW note
-- placeholder: all carry-over components in category "untested"
+- Conformity to [Asset Administration Shell v3.0](https://industrialdigitaltwin.org/wp-content/uploads/2023/04/IDTA-01002-3-0_SpecificationAssetAdministrationShell_Part2_API.pdf), [API live example](https://app.swaggerhub.com/apis/Plattform_i40/AssetAdministrationShellRegistryServiceSpecification/V3.0_SSP-001#/Asset%20Administration%20Shell%20Registry%20API/GetAssetAdministrationShellDescriptorById) (AAS) is given. For compatibility reasons, the deprecated DTR query interface “/query” will additionally be supported until Q1/2024. Details can be found in the [changelog](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/blob/main/CHANGELOG.md) of the respective component.
+- MIW interim version 0.2.0 had passed functional E2E-testing within boundaries of the Catena-X consortia (oder: based on given lab conditions), but faced severe Security issues (oder: but Security performance with vulnerabilities was inacceptable). MIW version 0.3.0 as part of the current Release package addresses all known Security issues, but did explicitly not undergo any functional E2E-testing (again).
+- placeholder: SDE note
+- placeholder: EDC note
+- All components listed in the "unchanged, untested" category have not seen any update since their previous Release. No specific regression tests executed.
 - FOSS components developed and pre-tested to TRL6 with artificial test data only
-- No crosscheck of functionality in verification environment (STABLE, Pre-PROD)
+- No crosscheck of functionality in verification environment
 - No execution of Load-, Performance- or Penetration Tests
 - No assignment of Export Control Classification Numbers (ECCN) to FOSS components
 - GeoBlocking recommended for Operations (GBaaS)
