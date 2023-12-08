@@ -83,7 +83,7 @@ All components listed here have not seen any update since their previous Release
 
 ### Runtime
 
-- Tested on [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) versions: `1.25.6`
+- Tested on [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) versions: `1.27.3`
 - Tested with [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) versions: `15`
 
 ### Using helm with central helm registry
