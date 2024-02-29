@@ -8,6 +8,29 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 Tractus-X has switched to YY.0M.MICRO [Calendar Versioning](https://calver.org/) for overarching, quarterly Releases. Semantic Versioning remains unchanged for all components.
 
+## [24.03] - 2024-03-XX
+
+### Added
+### Changed
+### Unchanged, untested
+### Known knowns
+
+### Runtime
+
+- Tested on [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) versions: `1.27.3`
+- Tested with [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) versions: `15`
+
+### Using helm with central helm registry
+
+You can search all released helm charts with the following commands:
+```shell
+helm repo add tractusx-dev https://eclipse-tractusx.github.io/charts/dev
+helm repo update tractusx-dev
+helm search repo tractusx-dev --versions
+```
+For installation details, please see the referenced Repositories / Releases.
+
+
 
 ## [23.12] - 2023-12-08
 
