@@ -73,7 +73,7 @@ Tractus-X operates on YY.0M.MICRO [Calendar Versioning](https://calver.org/) for
 
 - Relevant components and interfaces developed considering Gaia-X Trust Framework - 22.10
 - Connection to an external Clearing House service for the entire Catena-X ecosystem is required. The Gaia-X compliance service should generally be capable of recognizing all companies that are able to register with the Catena-X Portal.
-- Conformity to Asset Administration Shell v3.0, API live example (AAS) is given. The DTR “/query” interface is finally deprecated and no longer available with this Release as announced. Details can be found in the changelog of the respective component.
+- Conformity to [Asset Administration Shell v3.0](https://industrialdigitaltwin.org/wp-content/uploads/2023/04/IDTA-01002-3-0_SpecificationAssetAdministrationShell_Part2_API.pdf), [API live example](https://app.swaggerhub.com/apis/Plattform_i40/AssetAdministrationShellRegistryServiceSpecification/V3.0_SSP-001#/Asset%20Administration%20Shell%20Registry%20API/GetAssetAdministrationShellDescriptorById) (AAS) is given. The DTR “/query” interface is finally deprecated and no longer available with this Release as announced. Details can be found in the [changelog](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/blob/main/CHANGELOG.md) of the respective component.
 
 - EDC provides no new release compared to 23.12 but only patches: EDC version 0.5.4 is part of 24.03 with the following limitations:
   Standard Security Tests have been performed, but it is strongly recommended for each EDC operator to apply own security measures. Especially the Dynamic Application Security Testing (DAST) needs to be executed for each specific operation environment and instance.
