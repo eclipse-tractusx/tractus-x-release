@@ -40,14 +40,14 @@ The overarching Tractus-X releases are coordinated by the release management gro
 - Example:
 
 ```
-Subject line: [tractusx-dev] Announcing Tractus-X 23.09 - Latest Release Now Available 🎉
+Subject line: [tractusx-dev] Announcing Tractus-X 24.03 - Latest Release Now Available 🎉
 
 Hello Tractus-X Community,
  
-We're excited to announce the latest release of Tractus-X, now versioned as 23.09 in line with our transition from Semantic Versioning (SemVer) to Calendar Versioning (CalVer).
+We're excited to announce the latest release of Tractus-X 24.03.
  
 🔗 Release and Helm Charts
-You can view the full changelog and Helm chart versions for each component here: Tractus-X 23.09 Release Notes.
+You can view the full changelog and Helm chart versions for each component here: Tractus-X 24.03 Release Notes.
  
 🗓️ Transition to CalVer
 We've transitioned our versioning strategy to CalVer to better reflect the release timing and to simplify version identification. Going forward, expect the version number to represent the release date in a YY.0M.MICRO format.
@@ -62,7 +62,7 @@ Thank you for your continued support and enthusiasm for the Tractus-X project. T
  
 Best regards,
  
-Bjoern, Daniel and Sigi
+Bjoern, Daniel, Sigi and Stephan
 Eclipse Tratcus-X Project Leads
 ```
 
