@@ -92,6 +92,11 @@ Listed components in "untested" category were not verified in combination with t
 
 - Tested on [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) versions: `1.27.3`
 - Tested with [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) versions: `15`
+  - Three exceptions apply for
+    - Golden Record Business Partner Number (BPN) Service
+    - Managed Identity Wallet (MIW)
+    - Managed Service Orchestrator (MSO)
+    Those components violate TRG 5.07 as they still operate on Postgresql DB Version 14.x (not 15), but have been successfully tested for the current Release.
 
 ### Using helm with central helm registry
 
