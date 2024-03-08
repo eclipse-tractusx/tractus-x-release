@@ -85,7 +85,7 @@ Tractus-X operates on YY.0M.MICRO [Calendar Versioning](https://calver.org/) for
 - GeoBlocking recommended for Operations (GBaaS)
 - Security concept (overall) recommended for Operations
 
-Listed components in "untested" category were not verified in combination with the current Release package and are only compatible with Catena-X Standards as specified. Use at your own risk at this time.
+- Listed components in "Unchanged, untested" category were not verified in combination with the current Release package and are only compatible with Catena-X Standards as specified. Use at your own risk at this time.
 
 ### Runtime
 
@@ -95,6 +95,7 @@ Listed components in "untested" category were not verified in combination with t
     - Golden Record Business Partner Number (BPN) Service
     - Managed Identity Wallet (MIW)
     - Managed Service Orchestrator (MSO)
+
     Those components violate TRG 5.07 as they still operate on Postgresql DB Version 14.x (not 15), but have been successfully tested for the current Release.
 
 ### Using helm with central helm registry
