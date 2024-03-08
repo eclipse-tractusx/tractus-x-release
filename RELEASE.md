@@ -62,8 +62,8 @@ Thank you for your continued support and enthusiasm for the Tractus-X project. T
  
 Best regards,
  
-Bjoern, Daniel, Sigi and Stephan
-Eclipse Tratcus-X Project Leads
+Björn, Daniel, Sigi and Stephan
+Eclipse Tractus-X Project Leads
 ```
 
 ## Artifacts
