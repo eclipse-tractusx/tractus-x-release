@@ -2,27 +2,7 @@ import requests
 import subprocess
 import pandas as pd
 from pathlib import Path
-
-# TODO make this to be a parameter
-# constant of your markdown file
-file_path = Path("Testtable.md")
-
-# TODO determine tables by release
-# TODO run check per table
-# Read markdown
-with file_path.open() as f:
-    markdown_table = f.read()
-
-# Convert Markdown table to DataFrame
-data = markdown_table.split("\n")
-data = [line.strip("|").split("|") for line in data if line.strip()]
-headers = [header.strip() for header in data[0]]
-# skip headers and format line with "|---|---|..."
-df = pd.DataFrame(data[2:], columns=headers)
-
-# Helm repository setup
-subprocess.run(["helm", "repo", "add", "tractusx-dev", "https://eclipse-tractusx.github.io/charts/dev"], capture_output=True)
-subprocess.run(["helm", "repo", "update"], capture_output=True)
+import sys
 
 
 def transform_row_to_dict(row):
@@ -33,15 +13,14 @@ def transform_row_to_dict(row):
 
     # sample Frontend: [v1.3.1](https://link-to-version)<br/> Backend: [v1.3.1](https://link-to-version)
     app_kit_line = row['App-/KIT Version (s)'].strip()
-    print(f"app_kit_line: {app_kit_line}")
     app_kit_array = []
     if "<br/>" in app_kit_line:
-        print("Multiline app_kit_line")
+        print(f"Multiline APPs for FOSS Component {component_name}")
         for app in app_kit_line.split("<br/>"):
             name = app.strip().split(":")[0]
-            version = app[app.index("[") +1:app.index("]")]
+            version = app[app.index("[") + 1:app.index("]")]
             version = version[1:] if version[0] == "v" else version
-            link = app[app.index("(") +1:app.index(")")]
+            link = app[app.index("(") + 1:app.index(")")]
             app_kit_array.append({
                 "name": name,
                 "version": version,
@@ -150,7 +129,9 @@ def check_links_foss(parsed_row):
         if not check_link(app['link']):
             print(f"  Error: Release of FOSS APP {app['name']} has invalid link '{app['link']}'")
         if not app['link'].endswith(app['version']):
-            print(f"  Error: Release version '{app['version']}' and link version '{app['link']}' of FOSS APP {app['name']} do not match")
+            print(
+                f"  Error: Release version '{app['version']}' and link version '{app['link']}' of FOSS APP {app['name']} do not match")
+
 
 def check_chart_versions_repo_foss(parsed_row):
     print(f"Checking chart for {parsed_row['type']} Component: {parsed_row['type_name']}")
@@ -162,7 +143,8 @@ def check_chart_versions_repo_foss(parsed_row):
         print(f"  Error: Could not retrieve latest Helm chart or app version for {chart['name']}.")
 
     if latest_chart_version != chart["version"]:
-        print(f"  Error: Chart version of FOSS Chart {chart['name']} has version {chart['version']} while version {latest_chart_version} is available in tractusx-dev")
+        print(
+            f"  Error: Chart version of FOSS Chart {chart['name']} has version {chart['version']} while version {latest_chart_version} is available in tractusx-dev")
 
     for app in parsed_row['apps']:
         if latest_app_version != app["version"]:
@@ -170,13 +152,42 @@ def check_chart_versions_repo_foss(parsed_row):
                 f"  Error: App version of FOSS Chart {chart['name']} (app {app['name']}) has app version {app['version']} while version {latest_app_version} is set in Chart available in tractusx-dev")
 
 
-for index, row in df.iterrows():
-
-    parsed_row = transform_row_to_dict(row)
-
-    if parsed_row["type"] == 'KIT':
-        check_links_kit(parsed_row)
+def main():
+    if len(sys.argv) > 1:
+        file_path = Path(sys.argv[1])
     else:
-        check_links_foss(parsed_row)
-        check_chart_versions_repo_foss(parsed_row)
+        print("Please use as follows: python path/CHANGELOG.md R24.05")
+        exit(-1)
 
+    args = sys.argv[1:]
+
+    # TODO determine tables by release
+    # TODO run check per table
+    # Read markdown
+    with file_path.open() as f:
+        markdown_table = f.read()
+
+    # Convert Markdown table to DataFrame
+    data = markdown_table.split("\n")
+    data = [line.strip("|").split("|") for line in data if line.strip()]
+    headers = [header.strip() for header in data[0]]
+    # skip headers and format line with "|---|---|..."
+    df = pd.DataFrame(data[2:], columns=headers)
+
+    # Helm repository setup
+    subprocess.run(["helm", "repo", "add", "tractusx-dev", "https://eclipse-tractusx.github.io/charts/dev"],
+                   capture_output=True)
+    subprocess.run(["helm", "repo", "update"], capture_output=True)
+
+    for index, row in df.iterrows():
+
+        parsed_row = transform_row_to_dict(row)
+
+        if parsed_row["type"] == 'KIT':
+            check_links_kit(parsed_row)
+        else:
+            check_links_foss(parsed_row)
+            check_chart_versions_repo_foss(parsed_row)
+
+if __name__ == "__main__":
+    main()
