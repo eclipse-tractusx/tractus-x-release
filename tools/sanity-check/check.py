@@ -239,7 +239,10 @@ def check_chart_versions_repo_foss(parsed_row):
             f"  ERROR: Chart version of FOSS Chart {chart['name']} has version {chart['version']} while version {latest_chart_version} is available in tractusx-dev")
 
     for app in parsed_row['apps']:
-        if latest_app_version != app["version"]:
+        # normalize as apps in GitHub may start with v but list output of helm search is always without v
+        # only use for comparison so that during check we know not to false-positive correct the GitHub app link
+        normalized_app_version = app["version"].lstrip('v')
+        if latest_app_version != normalized_app_version:
             print(
                 f"  ERROR: App version of FOSS Chart {chart['name']} (app {app['name']}) has app version {app['version']} while version {latest_app_version} is set in Chart available in tractusx-dev")
 
