@@ -56,7 +56,7 @@ pip install -r requirements.txt
 Run for a CHANGELOG.md and a release like
 
 ```shell
-cd tools
+cd tools/sanity-check
 
 # enter venv (linux, see https://docs.python.org/3/library/venv.html#how-venvs-work)
 source venv/bin/activate
@@ -198,7 +198,7 @@ alias eclipseDashTool='java -jar ~/coding/org.eclipse.dash.licenses-1.1.0.jar'
 # esc, qw -> enter to save and exit
 source ~/.bashrc
 # cd to directory containing the requirements.txt
-cd tools
+cd tools/sanity-check
 
 cat requirements.txt | grep -v \# \
 | sed -E -e 's|([^= ]+)==([^= ]+)|pypi/pypi/-/\1/\2|' -e 's| ||g' \
