@@ -5,7 +5,7 @@ pypi/pypi/-/numpy/1.26.4, Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1
 pypi/pypi/-/pandas/2.2.2, BSD-2-Clause AND BSD-3-Clause AND (BSD-3-Clause AND TCL) AND (Apache-2.0 AND BSD-3-Clause) AND Python-2.0.1 AND MIT AND LicenseRef-Permission-Notice AND LicenseRef-Public-domain, approved, #13994
 pypi/pypi/-/python-dateutil/2.9.0.post0, Apache-2.0 AND BSD-3-Clause AND (Apache-2.0 AND BSD-3-Clause), approved, #13992
 pypi/pypi/-/pytz/2024.1, MIT AND (MIT AND ZPL-2.1), approved, #13993
-pypi/pypi/-/requests/2.32.2, Apache-2.0, restricted, clearlydefined
+pypi/pypi/-/requests/2.32.2, Apache-2.0 AND MIT AND Apache-2.0, approved, #14884
 pypi/pypi/-/six/1.16.0, MIT, approved, clearlydefined
 pypi/pypi/-/tzdata/2024.1, Apache-2.0, approved, #13995
 pypi/pypi/-/urllib3/2.2.1, MIT AND LicenseRef-Python, approved, #13081

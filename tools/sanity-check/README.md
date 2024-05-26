@@ -49,11 +49,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-
-
 ## Actual usage
 
-Run for a CHANGELOG.md and a release like
+Run for a CHANGELOG.md and a release as follows:
 
 ```shell
 cd tools/sanity-check
@@ -205,4 +203,3 @@ cat requirements.txt | grep -v \# \
 | sort | uniq \
 | eclipseDashTool -project automotive.tractusx -summary ./DEPENDENCIES -
 ```
-
