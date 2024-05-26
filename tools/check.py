@@ -310,7 +310,7 @@ def extract_tables_for_release(file_path, release_of_interest):
 
     # results in n +1 releases as there is one chunk prior to the first release heading
     releases = content.split('## [')[1:]
-    print(f"found {len(releases)} releases")
+    print(f"Found {len(releases)} releases")
     tables = []
     for release in releases:
         # Heading till link [ has already been already substringed
@@ -349,7 +349,7 @@ def main():
     subprocess.run(["helm", "repo", "update"], capture_output=True)
 
     for table_heading, df in df_tables:
-        print(f"\nProcessing table {table_heading}")
+        print(f"\nProcessing table '{table_heading}'")
         check_table(df)
         print()
 
