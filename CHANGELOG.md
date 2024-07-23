@@ -15,7 +15,6 @@ Tractus-X operates on YY.0M.MICRO [Calendar Versioning](https://calver.org/) for
 | Component | Helm Chart (s) | App-/KIT Version (s) |
 | :-------- | :-------------: | :------------------: |
 | [BPDM Certificate Management](https://github.com/eclipse-tractusx/bpdm-certificate-management) | bpdm-certificate-management: [1.0.1-alpha.3](https://github.com/eclipse-tractusx/bpdm-certificate-management/releases/tag/bpdm-certificate-management-1.0.1-alpha.3) | n/a |
-| [Demand Capacity Management](https://github.com/eclipse-tractusx/demand-capacity-mgmt) | n/a | n/a |
 | [SSI Authority & Schema Registry](https://github.com/eclipse-tractusx/ssi-authority-schema-registry) | ssi-asr: [1.0.0-rc.1](https://github.com/eclipse-tractusx/ssi-authority-schema-registry/releases/tag/ssi-asr-1.0.0-rc.1) | n/a |
 
 ### Updated
