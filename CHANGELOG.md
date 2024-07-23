@@ -75,7 +75,7 @@ Conformity to [Asset Administration Shell (AAS) API v3.0](https://industrialdigi
 
 The release has been tested
 
-- on [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) versions: `1.27.3`
+- on [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) versions: `1.28.9`
 - with [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) versions: `15`
 
 Note: Tractus-X EDC has been tested on both Postgresql versions: 15.x and 16.x
