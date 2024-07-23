@@ -16,7 +16,6 @@ Tractus-X operates on YY.0M.MICRO [Calendar Versioning](https://calver.org/) for
 | :-------- | :-------------: | :------------------: |
 | [BPDM Certificate Management](https://github.com/eclipse-tractusx/bpdm-certificate-management) | nan | [bpdm-certificate-management-1.0.1-alpha.3](https://github.com/eclipse-tractusx/bpdm-certificate-management/releases/tag/bpdm-certificate-management-1.0.1-alpha.3) |
 | [Demand Capacity Management](https://github.com/eclipse-tractusx/demand-capacity-mgmt) | nan | [charts-cart-0.1.0](https://github.com/eclipse-tractusx/demand-capacity-mgmt/releases/tag/charts-cart-0.1.0) |
-| [E2E_Data_Exchange_Test_Service](https://github.com/eclipse-tractusx/data-exchange-test-service) | nan | [data-exchange-1.0.17](https://github.com/eclipse-tractusx/data-exchange-test-service/releases/tag/data-exchange-1.0.17) |
 | [SSI Authority & Schema Registry](https://github.com/eclipse-tractusx/ssi-authority-schema-registry) | nan | [ssi-asr-1.0.0-rc.1](https://github.com/eclipse-tractusx/ssi-authority-schema-registry/releases/tag/ssi-asr-1.0.0-rc.1) |
 
 ### Updated
@@ -29,7 +28,7 @@ Tractus-X operates on YY.0M.MICRO [Calendar Versioning](https://calver.org/) for
 | [Digital Twin Registry](https://github.com/eclipse-tractusx/sldt-digital-twin-registry) | nan | [digital-twin-registry-0.5.2](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/digital-twin-registry-0.5.2) |
 | [Discovery Finder](https://github.com/eclipse-tractusx/sldt-discovery-finder) | nan | [discoveryfinder-0.3.1](https://github.com/eclipse-tractusx/sldt-discovery-finder/releases/tag/discoveryfinder-0.3.1) |
 | [Discovery Service (BPN Finder)](https://github.com/eclipse-tractusx/sldt-bpn-discovery) | nan | [bpndiscovery-0.3.1](https://github.com/eclipse-tractusx/sldt-bpn-discovery/releases/tag/bpndiscovery-0.3.1) |
-| [Eclipse Data Space Connector (Tractus-X EDC)](https://github.com/eclipse-tractusx/tractusx-edc) | nan | [0.8.0-rc1](https://github.com/eclipse-tractusx/tractusx-edc/releases/tag/0.8.0-rc1) |
+| [Eclipse Data Space Connector (Tractus-X EDC)](https://github.com/eclipse-tractusx/tractusx-edc) | nan | [0.7.3](https://github.com/eclipse-tractusx/tractusx-edc/releases/tag/0.7.3) |
 | [Golden Record Business Partner Number (BPN) Service](https://github.com/eclipse-tractusx/bpdm) | nan | [bpdm-5.1.0](https://github.com/eclipse-tractusx/bpdm/releases/tag/bpdm-5.1.0) |
 | [Identity and Access Management (IAM)](https://github.com/eclipse-tractusx/portal-iam) | nan | [v3.0.0](https://github.com/eclipse-tractusx/portal-iam/releases/tag/v3.0.0) |
 | [Item Relationship Service (IRS)](https://github.com/eclipse-tractusx/item-relationship-service) | nan | [item-relationship-service-7.3.1](https://github.com/eclipse-tractusx/item-relationship-service/releases/tag/item-relationship-service-7.3.1) |
