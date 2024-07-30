@@ -60,7 +60,8 @@ Tractus-X operates on YY.0M.MICRO [Calendar Versioning](https://calver.org/) for
 
 | Component | Helm Chart (s) | App-/KIT Version (s) |
 | :-------- | :-------------: | :------------------: |
-| [Managed Identity Wallet (MIW)](https://github.com/eclipse-tractusx/managed-identity-wallet) | nan | [v0.5.0](https://github.com/eclipse-tractusx/managed-identity-wallet/releases/tag/v0.5.0) | 
+| [Managed Identity Wallet (MIW)](https://github.com/eclipse-tractusx/managed-identity-wallet)     | managed-identity-wallet: [0.5.0](https://github.com/eclipse-tractusx/managed-identity-wallet/releases/tag/v0.5.0) | [0.5.0](https://github.com/eclipse-tractusx/managed-identity-wallet/releases/tag/v0.5.0) |
+```
 | [Country Risk](https://github.com/eclipse-tractusx/vas-country-risk) | country-risk: [4.0.2](https://github.com/eclipse-tractusx/vas-country-risk/releases/tag/country-risk-4.0.2) | [1.3.1](https://github.com/eclipse-tractusx/vas-country-risk/releases/tag/v1.3.1) |
 
 ### Known Knowns
