@@ -15,15 +15,16 @@ Tractus-X operates on YY.0M.MICRO [Calendar Versioning](https://calver.org/) for
 | Component | Helm Chart (s) | App-/KIT Version (s) |
 | :-------- | :-------------: | :------------------: |
 | [BPDM Certificate Management](https://github.com/eclipse-tractusx/bpdm-certificate-management) | bpdm-certificate-management: [1.0.1-alpha.3](https://github.com/eclipse-tractusx/bpdm-certificate-management/releases/tag/bpdm-certificate-management-1.0.1-alpha.3) | n/a |
-| [Supply Chain Disruption Notifications Kit](https://eclipse-tractusx.github.io/docs-kits/next/category/supply-chain-disruption-notifications-kit) | n/a | [1.0.0](https://eclipse-tractusx.github.io/docs-kits/next/kits/Supply%20Chain%20Disruption%20Notifications%20KIT/Supply%20Chain%20Disruption%20Notifications%20Changelog) |
+| [Supply Chain Disruption Notifications KIT Kit](https://eclipse-tractusx.github.io/docs-kits/next/category/supply-chain-disruption-notifications-kit) | n/a | [1.0.0](https://eclipse-tractusx.github.io/docs-kits/next/kits/Supply%20Chain%20Disruption%20Notifications%20KIT/Supply%20Chain%20Disruption%20Notifications%20Changelog) |
 | [SSI Authority & Schema Registry](https://github.com/eclipse-tractusx/ssi-authority-schema-registry) | ssi-asr: [1.0.0](https://github.com/eclipse-tractusx/ssi-authority-schema-registry/releases/tag/ssi-asr-1.0.0) | [1.0.0](https://github.com/eclipse-tractusx/ssi-authority-schema-registry/releases/tag/v1.0.0) |
+
+### Updated
 
 | Component | Helm Chart (s) | App-/KIT Version (s) |
 | :-------- | :-------------: | :------------------: |
 | [BPDM Kit](https://eclipse-tractusx.github.io/docs-kits/category/business-partner-kit) | n/a | [6.0.0](https://eclipse-tractusx.github.io/docs-kits/kits/Business%20Partner%20Kit/Changelog) |
 | [BPN DID Resolution Service (BDRS)](https://github.com/eclipse-tractusx/bpn-did-resolution-service) | [0.5.2](https://github.com/eclipse-tractusx/bpn-did-resolution-service/releases/tag/0.5.2) | [0.5.2](https://github.com/eclipse-tractusx/bpn-did-resolution-service/releases/tag/0.5.2) |
 | [Circularity Kit](https://eclipse-tractusx.github.io/docs-kits/next/kits/Circularity_KIT/page-adoption-view) | n/a | [1.2.0](https://eclipse-tractusx.github.io/docs-kits/next/kits/Circularity_KIT/Changelog%20Circularity%20KIT) |
-| [Country Risk](https://github.com/eclipse-tractusx/vas-country-risk) | country-risk: [4.0.2](https://github.com/eclipse-tractusx/vas-country-risk/releases/tag/country-risk-4.0.2) | [1.3.1](https://github.com/eclipse-tractusx/vas-country-risk/releases/tag/v1.3.1) |
 | [DCM Kit](https://eclipse-tractusx.github.io/docs-kits/next/category/dcm-kit) | n/a | [1.1.0](https://eclipse-tractusx.github.io/docs-kits/next/kits/DCM-Kit/changelog) |
 | [Digital Product Pass (DPP)](https://github.com/eclipse-tractusx/digital-product-pass) | digital-product-pass: [4.0.1](https://github.com/eclipse-tractusx/digital-product-pass/releases/tag/v4.0.1) | [4.0.1](https://github.com/eclipse-tractusx/digital-product-pass/releases/tag/v4.0.1) |
 | [Digital Twin Kit](https://eclipse-tractusx.github.io/docs-kits/category/digital-twin-kit) | n/a | [2.0.1](https://eclipse-tractusx.github.io/docs-kits/next/kits/Digital%20Twin%20Kit/Digital%20Twin%20Kit%20Changelog) |
@@ -34,22 +35,15 @@ Tractus-X operates on YY.0M.MICRO [Calendar Versioning](https://calver.org/) for
 | [EcoPass Kit](https://eclipse-tractusx.github.io/docs-kits/next/category/eco-pass-kit) | n/a | [1.5.0](https://eclipse-tractusx.github.io/docs-kits/next/kits/Eco_Pass_KIT/changelog) |
 | [ESS Kit](https://eclipse-tractusx.github.io/docs-kits/next/category/ess-kit) | n/a | [0.3.0](https://eclipse-tractusx.github.io/docs-kits/next/kits/ESS-Kit/ESS%20Kit%20Changelog) |
 | [Golden Record Business Partner Number (BPN) Service](https://github.com/eclipse-tractusx/bpdm) | bpdm: [5.0.3](https://github.com/eclipse-tractusx/bpdm/releases/tag/bpdm-5.0.3) | [6.1.0](https://github.com/eclipse-tractusx/bpdm/releases/tag/v6.1.0) |
-| [Identity and Access Management (IAM) - centralIdP](https://github.com/eclipse-tractusx/portal-iam) | centralidp: [3.0.1](https://github.com/eclipse-tractusx/portal-iam/releases/tag/centralidp-3.0.1) | n/a |
-| [Identity and Access Management (IAM) - sharedIdP](https://github.com/eclipse-tractusx/portal-iam) | sharedidp: [3.0.1](https://github.com/eclipse-tractusx/portal-iam/releases/tag/sharedidp-3.0.1) | n/a |
+| [Identity and Access Management (IAM)](https://github.com/eclipse-tractusx/portal-iam) | centralidp: [3.0.1](https://github.com/eclipse-tractusx/portal-iam/releases/tag/centralidp-3.0.1)<br>sharedidp: [3.0.1](https://github.com/eclipse-tractusx/portal-iam/releases/tag/sharedidp-3.0.1) | keycloak: [23.0.7](https://www.keycloak.org/docs/latest/release_notes/index.html#keycloak-23-0-7) |
 | [Industry Core KIT](https://eclipse-tractusx.github.io/docs-kits/next/category/industry-core-kit) | n/a | [1.1.0](https://eclipse-tractusx.github.io/docs-kits/next/kits/Industry%20Core%20Kit/Industry%20Core%20Kit%20Changelog) |
 | [Item Relationship Service (IRS)](https://github.com/eclipse-tractusx/item-relationship-service) | item-relationship-service: [7.4.0](https://github.com/eclipse-tractusx/item-relationship-service/releases/tag/item-relationship-service-7.4.0) | [5.4.0](https://github.com/eclipse-tractusx/item-relationship-service/releases/tag/5.4.0) |
 | [Knowledge Agents](https://github.com/eclipse-tractusx/knowledge-agents) | remoting-agent: [1.13.21-SNAPSHOT](https://github.com/eclipse-tractusx/knowledge-agents/releases/tag/remoting-agent-1.13.21-SNAPSHOT) | [1.12.19](https://github.com/eclipse-tractusx/knowledge-agents/releases/tag/v1.12.19) |
 | [Managed Service Orchestrator](https://github.com/eclipse-tractusx/managed-service-orchestrator) | managed-service-orchestrator: [1.5.9](https://github.com/eclipse-tractusx/managed-service-orchestrator/releases/tag/managed-service-orchestrator-1.5.9) | [1.5.6](https://github.com/eclipse-tractusx/managed-service-orchestrator/releases/tag/v1.5.6) |
-| [Managed Simple Data Exchanger (SDE)](https://github.com/eclipse-tractusx/managed-simple-data-exchanger) | sde: [0.1.10](https://github.com/eclipse-tractusx/managed-simple-data-exchanger/releases/tag/sde-0.1.10) | [0.1.10](https://github.com/eclipse-tractusx/managed-simple-data-exchanger/releases/tag/sde-0.1.10) |
-| [Managed Simple Data Exchanger (SDE) - backend](https://github.com/eclipse-tractusx/managed-simple-data-exchanger-backend) | [2.4.1](https://github.com/eclipse-tractusx/managed-simple-data-exchanger-backend/releases/tag/v2.4.1) | [2.4.1](https://github.com/eclipse-tractusx/managed-simple-data-exchanger-backend/releases/tag/v2.4.1) |
-| [Managed Simple Data Exchanger (SDE) - frontend](https://github.com/eclipse-tractusx/managed-simple-data-exchanger-frontend) | [2.4.1](https://github.com/eclipse-tractusx/managed-simple-data-exchanger-frontend/releases/tag/v2.4.1) | [2.4.1](https://github.com/eclipse-tractusx/managed-simple-data-exchanger-frontend/releases/tag/v2.4.1) |
+| [Managed Simple Data Exchanger (SDE)](https://github.com/eclipse-tractusx/managed-simple-data-exchanger) | sde: [0.1.10](https://github.com/eclipse-tractusx/managed-simple-data-exchanger/releases/tag/sde-0.1.10) | frontend: [2.4.1](https://github.com/eclipse-tractusx/managed-simple-data-exchanger-frontend/releases/tag/v2.4.1)<br>backend: [2.4.1](https://github.com/eclipse-tractusx/managed-simple-data-exchanger-backend/releases/tag/v2.4.1) |
 | [PCF Exchange Kit](https://eclipse-tractusx.github.io/docs-kits/next/category/pcf-exchange-kit) | n/a | [1.2.0](https://eclipse-tractusx.github.io/docs-kits/next/kits/PCF%20Exchange%20Kit/PCF%20Exchange%20Kit%20Changelog) |
 | [Policy Hub](https://github.com/eclipse-tractusx/policy-hub) | policy-hub: [1.1.0](https://github.com/eclipse-tractusx/policy-hub/releases/tag/policy-hub-1.1.0) | [1.1.0](https://github.com/eclipse-tractusx/policy-hub/releases/tag/v1.1.0) |
-| [Portal](https://github.com/eclipse-tractusx/portal) | portal: [2.1.0](https://github.com/eclipse-tractusx/portal/releases/tag/portal-2.1.0) | n/a |
-| [Portal - portal-assets](https://github.com/eclipse-tractusx/portal-assets) | n/a | [2.1.0](https://github.com/eclipse-tractusx/portal-assets/releases/tag/v2.1.0) |
-| [Portal - portal-backend](https://github.com/eclipse-tractusx/portal-backend) | n/a | [2.1.0](https://github.com/eclipse-tractusx/portal-backend/releases/tag/v2.1.0) |
-| [Portal - portal-frontend](https://github.com/eclipse-tractusx/portal-frontend) | n/a | [2.1.0](https://github.com/eclipse-tractusx/portal-frontend/releases/tag/v2.1.0) |
-| [Portal - portal-frontend-registration](https://github.com/eclipse-tractusx/portal-frontend-registration) | n/a | [2.0.1](https://github.com/eclipse-tractusx/portal-frontend-registration/releases/tag/v2.0.1) |
+| [Portal](https://github.com/eclipse-tractusx/portal) | portal: [2.1.0](https://github.com/eclipse-tractusx/portal/releases/tag/portal-2.1.0) | registration: [2.0.1](https://github.com/eclipse-tractusx/portal-frontend-registration/releases/tag/v2.0.1)<br>frontend: [2.1.0](https://github.com/eclipse-tractusx/portal-frontend/releases/tag/v2.1.0)<br>backend: [2.1.0](https://github.com/eclipse-tractusx/portal-backend/releases/tag/v2.1.0)<br>assets: [2.1.0](https://github.com/eclipse-tractusx/portal-assets/releases/tag/v2.1.0) |
 | [PURIS](https://github.com/eclipse-tractusx/puris) | puris: [2.7.0](https://github.com/eclipse-tractusx/puris/releases/tag/puris-2.7.0) | [2.1.0](https://github.com/eclipse-tractusx/puris/releases/tag/2.1.0) |
 | [PURIS Kit](https://eclipse-tractusx.github.io/docs-kits/next/category/puris-kit) | n/a | [0.3.0](https://eclipse-tractusx.github.io/docs-kits/next/kits/PURIS%20Kit/PURIS%20Kit%20Changelog) |
 | [Self Description (SD) Factory](https://github.com/eclipse-tractusx/sd-factory) | sdfactory: [2.1.21](https://github.com/eclipse-tractusx/sd-factory/releases/tag/sdfactory-2.1.21) | [2.1.13](https://github.com/eclipse-tractusx/sd-factory/releases/tag/v2.1.13) |
@@ -63,7 +57,8 @@ Tractus-X operates on YY.0M.MICRO [Calendar Versioning](https://calver.org/) for
 
 | Component | Helm Chart (s) | App-/KIT Version (s) |
 | :-------- | :-------------: | :------------------: |
-| [Managed Identity Wallet (MIW)](https://github.com/eclipse-tractusx/managed-identity-wallet) | n/a | [v0.5.0](https://github.com/eclipse-tractusx/managed-identity-wallet/releases/tag/v0.5.0) |
+| [Managed Identity Wallet (MIW)](https://github.com/eclipse-tractusx/managed-identity-wallet) | n/a | [0.5.0](https://github.com/eclipse-tractusx/managed-identity-wallet/releases/tag/v0.5.0) | 
+| [Country Risk](https://github.com/eclipse-tractusx/vas-country-risk) | country-risk: [4.0.2](https://github.com/eclipse-tractusx/vas-country-risk/releases/tag/country-risk-4.0.2) | [1.3.1](https://github.com/eclipse-tractusx/vas-country-risk/releases/tag/v1.3.1) |
 
 ### Known Knowns
 
