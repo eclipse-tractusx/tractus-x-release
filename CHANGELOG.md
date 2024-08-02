@@ -63,6 +63,10 @@ Tractus-X operates on YY.0M.MICRO [Calendar Versioning](https://calver.org/) for
 
 ### Known Knowns
 
+:::note
+For known knowns of unchanged/untested components, please refer to previous changelog(s)
+:::
+
 - Relevant components and interfaces developed considering Gaia-X Trust Framework - 22.10
 - Connection to an external Clearing House service for the entire Catena-X ecosystem is required. The Gaia-X compliance service should generally be capable of recognizing all companies that are able to register with the Catena-X Portal.
 Conformity to [Asset Administration Shell (AAS) API v3.0](https://industrialdigitaltwin.org/wp-content/uploads/2023/04/IDTA-01002-3-0_SpecificationAssetAdministrationShell_Part2_API.pdf) and bugfix v3.0.1 is given. Fine granular access control introduced for optional use.
