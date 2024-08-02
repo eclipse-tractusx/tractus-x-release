@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 Tractus-X operates on YY.0M.MICRO [Calendar Versioning](https://calver.org/) for overarching, quarterly Releases. Semantic Versioning remains unchanged for all components.
 
-## [24.08] - 2024-08-01
+## [24.08] - 2024-08-05
 
 ### Added
 
