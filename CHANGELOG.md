@@ -14,7 +14,6 @@ Tractus-X operates on YY.0M.MICRO [Calendar Versioning](https://calver.org/) for
 
 | Component | Helm Chart (s) | App-/KIT Version (s) |
 | :-------- | :-------------: | :------------------: |
-| [BPDM Certificate Management](https://github.com/eclipse-tractusx/bpdm-certificate-management) | bpdm-certificate-management: [1.0.1-alpha.3](https://github.com/eclipse-tractusx/bpdm-certificate-management/releases/tag/bpdm-certificate-management-1.0.1-alpha.3) | n/a |
 | [Knowledge Agents AAS Bridge](https://github.com/eclipse-tractusx/knowledge-agents-aas-bridge) | aas-bridge: [1.13.7](https://github.com/eclipse-tractusx/knowledge-agents/releases/tag/aas-bridge-1.13.7) | [1.13.7](https://github.com/eclipse-tractusx/knowledge-agents/releases/tag/v1.13.7) |
 | [Supply Chain Disruption Notifications Kit](https://eclipse-tractusx.github.io/docs-kits/category/supply-chain-disruption-notifications-kit) | n/a | [1.0.0](https://eclipse-tractusx.github.io/docs-kits/kits/Supply%20Chain%20Disruption%20Notifications%20KIT/Supply%20Chain%20Disruption%20Notifications%20Changelog) |
 | [SSI Authority & Schema Registry](https://github.com/eclipse-tractusx/ssi-authority-schema-registry) | ssi-asr: [1.0.0](https://github.com/eclipse-tractusx/ssi-authority-schema-registry/releases/tag/ssi-asr-1.0.0) | [1.0.0](https://github.com/eclipse-tractusx/ssi-authority-schema-registry/releases/tag/v1.0.0) |
@@ -35,7 +34,7 @@ Tractus-X operates on YY.0M.MICRO [Calendar Versioning](https://calver.org/) for
 | [Eclipse Data Space Connector (Tractus-X EDC)](https://github.com/eclipse-tractusx/tractusx-edc) | [0.7.3](https://github.com/eclipse-tractusx/tractusx-edc/releases/tag/0.7.3) | [0.7.3](https://github.com/eclipse-tractusx/tractusx-edc/releases/tag/0.7.3) |
 | [EcoPass Kit](https://eclipse-tractusx.github.io/docs-kits/category/eco-pass-kit) | n/a | [1.5.0](https://eclipse-tractusx.github.io/docs-kits/kits/Eco_Pass_KIT/changelog) |
 | [ESS Kit](https://eclipse-tractusx.github.io/docs-kits/category/ess-kit) | n/a | [0.3.0](https://eclipse-tractusx.github.io/docs-kits/kits/ESS-Kit/ESS%20Kit%20Changelog) |
-| [Golden Record Business Partner Number (BPN) Service](https://github.com/eclipse-tractusx/bpdm) | bpdm: [5.0.3](https://github.com/eclipse-tractusx/bpdm/releases/tag/bpdm-5.0.3) | [v6.1.0](https://github.com/eclipse-tractusx/bpdm/releases/tag/v6.1.0) |
+| [Golden Record Business Partner Number (BPN) Service](https://github.com/eclipse-tractusx/bpdm) | bpdm: [5.1.0](https://github.com/eclipse-tractusx/bpdm/releases/tag/bpdm-5.1.0) | [v6.1.0](https://github.com/eclipse-tractusx/bpdm/releases/tag/v6.1.0) |
 | [Identity and Access Management (IAM)](https://github.com/eclipse-tractusx/portal-iam) | centralidp: [3.0.1](https://github.com/eclipse-tractusx/portal-iam/releases/tag/centralidp-3.0.1)<br>sharedidp: [3.0.1](https://github.com/eclipse-tractusx/portal-iam/releases/tag/sharedidp-3.0.1) | keycloak: [23.0.7](https://www.keycloak.org/docs/latest/release_notes/index.html#keycloak-23-0-7) |
 | [Industry Core KIT](https://eclipse-tractusx.github.io/docs-kits/category/industry-core-kit) | n/a | [1.1.0](https://eclipse-tractusx.github.io/docs-kits/kits/Industry%20Core%20Kit/Industry%20Core%20Kit%20Changelog) |
 | [Item Relationship Service (IRS)](https://github.com/eclipse-tractusx/item-relationship-service) | item-relationship-service: [7.4.0](https://github.com/eclipse-tractusx/item-relationship-service/releases/tag/item-relationship-service-7.4.0) | [5.4.0](https://github.com/eclipse-tractusx/item-relationship-service/releases/tag/5.4.0) |
@@ -78,6 +77,11 @@ Conformity to [Asset Administration Shell (AAS) API v3.0](https://industrialdigi
 - GeoBlocking recommended for Operations (GBaaS)
 - Security concept (overall) recommended for Operations
 - Listed components in "Unchanged, untested" category were not verified in combination with the current Release package and are only compatible with Catena-X Standards as specified. Use at your own risk at this time.
+- BPDM has some Known Knowns regarding Portal integration listed in detail [here](https://github.com/eclipse-tractusx/bpdm/blob/release/6.1.x/docs/architecture/11_Risks_And_Technical_Debts.md)
+- BPDM standard configuration not compatible with Portal's Central-IDP configuration  
+- Portal's Partner Network page does not currently show business partner member data due to an authorization issue  
+- Currently not possible to add company's site and address business partners over the Portal due to authorization issue  
+- Security concern about exposed technical users when subscribing BPDM services over the Portal
 
 ### Runtime
 
@@ -90,7 +94,6 @@ Note: Tractus-X EDC has been tested on both Postgresql versions: 15.x and 16.x
 
 The following violations of TRG 5.07 apply:
 
-- Golden Record Business Partner Number (BPN) Service operates on Postgresql version 16.x (not 15), but has been successfully tested for the current Release
 - Country Risk deploys a Postgresql version 15 per helm chart. Yet, the test has been successfully performed on version 14.x.
 
 ### Using helm with central helm registry
