@@ -19,7 +19,7 @@ Tractus-X operates on YY.0M.MICRO [Calendar Versioning](https://calver.org/) for
 
 | Component | Helm Chart (s) | App-/KIT Version (s) |
 | :-------- | :-------------: | :------------------: |
-| [Digital Twin Registry](https://github.com/eclipse-tractusx/sldt-digital-twin-registry) | digital-twin-registry: [0.6.1](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/digital-twin-registry-0.6.1) | [0.6.1](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/v0.6.1) |
+| [Digital Twin Registry](https://github.com/eclipse-tractusx/sldt-digital-twin-registry) | digital-twin-registry: [0.6.2](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/digital-twin-registry-0.6.2) | [0.6.2](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/v0.6.2) |
 | [Discovery Finder](https://github.com/eclipse-tractusx/sldt-discovery-finder) | discoveryfinder: [0.4.2](https://github.com/eclipse-tractusx/sldt-discovery-finder/releases/tag/discoveryfinder-0.4.2) | [0.5.2](https://github.com/eclipse-tractusx/sldt-discovery-finder/releases/tag/v0.5.2) |
 | [Discovery Service (BPN Finder)](https://github.com/eclipse-tractusx/sldt-bpn-discovery) | bpndiscovery: [0.4.2](https://github.com/eclipse-tractusx/sldt-bpn-discovery/releases/tag/bpndiscovery-0.4.2) | [0.5.2](https://github.com/eclipse-tractusx/sldt-bpn-discovery/releases/tag/v0.5.2) |
 | [Eclipse Data Space Connector (Tractus-X EDC)](https://github.com/eclipse-tractusx/tractusx-edc) | [0.8.0](https://github.com/eclipse-tractusx/tractusx-edc/releases/tag/0.8.0-rc6) | [0.8.0](https://github.com/eclipse-tractusx/tractusx-edc/releases/tag/0.8.0-rc6) |
