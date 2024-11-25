@@ -64,7 +64,7 @@ Tractus-X operates on YY.0M.MICRO [Calendar Versioning](https://calver.org/) for
 
 The release has been tested
 
-- on [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) versions: `1.28`
+- on [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) versions: `1.28.9`
 - with [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) versions: ``
 
 Note: Tractus-X EDC has been tested on both Postgresql versions: 15.x and 16.x
