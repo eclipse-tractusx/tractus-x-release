@@ -63,6 +63,11 @@ Tractus-X operates on YY.0M.MICRO [Calendar Versioning](https://calver.org/) for
 - This Tractus-X release does not include a Managed Identity Wallet (MIW). The development team decided on a temporary bridging solution, based on a commercial application, to test and ship Release 24.08. Without implementing this interim solution, participants will not be able to fully utilize this Tractus-X release in consequence.
 - For E2E Testing, the [2.1.1](https://github.com/SAP/ssi-dim-middle-layer/releases/tag/v2.1.1) of the [SSI DIM Middle Layer](https://github.com/SAP/ssi-dim-middle-layer) was used - this component is FOSS but the currently used wallet (see previous item) is not.
 - Security concern about exposed technical users when subscribing BPDM services over the Portal -> see  [according issue](https://github.com/eclipse-tractusx/sig-release/issues/987)
+- BPNL Group Validation for a Policy does not allow a Collection as a rightOperand -> see [Issue](https://github.com/eclipse-tractusx/tractusx-edc/issues/1674)
+- EDR token refresh implementation is inconsistent and deviates from the documentation -> see [Issue](https://github.com/eclipse-tractusx/tractusx-edc/issues/1565)
+- Consumer-Asset with the same ID as a Provider-Asset Cannot Be Deleted After Contract Negotiation -> see [Issue](https://github.com/eclipse-edc/Connector/issues/4583)
+- Termination of pull transfer process from consumer side does not succeed -> see [Issue](https://github.com/eclipse-edc/Connector/issues/4592)
+- Fatal error while resume PULL transfer process -> see [Issue](https://github.com/eclipse-edc/Connector/issues/4591)
 
 ### Runtime
 
