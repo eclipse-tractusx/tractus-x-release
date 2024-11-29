@@ -79,7 +79,7 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 The release has been tested
 
 - on [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) versions: `1.28.9`
-- with [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) versions: ``
+- with [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) versions: `15.2.1.`
 
 Note: Tractus-X EDC has been tested on both Postgresql versions: 15.x and 16.x
 
