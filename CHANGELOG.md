@@ -16,9 +16,9 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 
 | Component | Helm Chart (s) | App-/KIT Version (s) |
 | :-------- | :-------------: | :------------------: |
-| [BPDM Kit](https://eclipse-tractusx.github.io/docs-kits/category/business-partner-kit) | n/a | [7.0.0](https://eclipse-tractusx.github.io/docs-kits/kits/Business%20Partner%20Kit/Changelog) |
-| [Circularity Kit](https://eclipse-tractusx.github.io/docs-kits/kits/Circularity_KIT/page-adoption-view) | n/a | [1.2.0](https://eclipse-tractusx.github.io/docs-kits/kits/Data%20Chain%20Kit/data%20chain%20kit%20changelog) |
-| [DCM Kit](https://eclipse-tractusx.github.io/docs-kits/category/dcm-kit) | n/a | [1.2.0](https://eclipse-tractusx.github.io/docs-kits/kits/DCM-Kit/changelog) |
+| [BPDM KIT](https://eclipse-tractusx.github.io/docs-kits/category/business-partner-kit) | n/a | [7.0.0](https://eclipse-tractusx.github.io/docs-kits/kits/Business%20Partner%20Kit/Changelog) |
+| [Circularity KIT](https://eclipse-tractusx.github.io/docs-kits/kits/Circularity_KIT/page-adoption-view) | n/a | [1.2.0](https://eclipse-tractusx.github.io/docs-kits/kits/Data%20Chain%20Kit/data%20chain%20kit%20changelog) |
+| [DCM Kit](https://eclipse-tractusx.github.io/docs-kits/kits/Demand%20and%20Capacity%20Management%20Kit/adoption-view/overview) | n/a | [1.2.0](https://eclipse-tractusx.github.io/docs-kits/kits/Demand%20and%20Capacity%20Management%20Kit/changelog) |
 | [Digital Twin Registry](https://github.com/eclipse-tractusx/sldt-digital-twin-registry) | digital-twin-registry: [0.6.2](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/digital-twin-registry-0.6.2) | [0.6.2](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/v0.6.2) |
 | [Discovery Finder](https://github.com/eclipse-tractusx/sldt-discovery-finder) | discoveryfinder: [0.4.2](https://github.com/eclipse-tractusx/sldt-discovery-finder/releases/tag/discoveryfinder-0.4.2) | [0.5.2](https://github.com/eclipse-tractusx/sldt-discovery-finder/releases/tag/v0.5.2) |
 | [Discovery Service (BPN Finder)](https://github.com/eclipse-tractusx/sldt-bpn-discovery) | bpndiscovery: [0.4.2](https://github.com/eclipse-tractusx/sldt-bpn-discovery/releases/tag/bpndiscovery-0.4.2) | [0.5.2](https://github.com/eclipse-tractusx/sldt-bpn-discovery/releases/tag/v0.5.2) |
@@ -34,7 +34,7 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 | [Semantic Hub](https://github.com/eclipse-tractusx/sldt-semantic-hub) | semantic-hub: [0.4.2](https://github.com/eclipse-tractusx/sldt-semantic-hub/releases/tag/semantic-hub-0.4.2) | [0.5.2](https://github.com/eclipse-tractusx/sldt-semantic-hub/releases/tag/v0.5.2) |
 | [SSI Authority & Schema Registry](https://github.com/eclipse-tractusx/ssi-authority-schema-registry) | ssi-asr: [1.1.0](https://github.com/eclipse-tractusx/ssi-authority-schema-registry/releases/tag/ssi-asr-1.1.0) | [1.1.0](https://github.com/eclipse-tractusx/ssi-authority-schema-registry/releases/tag/v1.1.0) |
 | [SSI Credential Issuer](https://github.com/eclipse-tractusx/ssi-credential-issuer) | ssi-credential-issuer: [1.2.0](https://github.com/eclipse-tractusx/ssi-credential-issuer/releases/tag/ssi-credential-issuer-1.2.0) | [1.2.0](https://github.com/eclipse-tractusx/ssi-credential-issuer/releases/tag/v1.2.0) |
-| [Traceability Kit](https://eclipse-tractusx.github.io/docs-kits/category/traceability-kit) | n/a | [6.0.0](https://eclipse-tractusx.github.io/docs-kits/kits/Traceability%20Kit/Traceability%20Kit%20Changelog) |
+| [Traceability KIT](https://eclipse-tractusx.github.io/docs-kits/category/traceability-kit) | n/a | [6.0.0](https://eclipse-tractusx.github.io/docs-kits/kits/Traceability%20Kit/Traceability%20Kit%20Changelog) |
 
 ### Known Knowns
 
