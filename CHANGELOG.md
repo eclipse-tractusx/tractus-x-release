@@ -36,30 +36,6 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 | [SSI Credential Issuer](https://github.com/eclipse-tractusx/ssi-credential-issuer) | ssi-credential-issuer: [1.2.0](https://github.com/eclipse-tractusx/ssi-credential-issuer/releases/tag/ssi-credential-issuer-1.2.0) | [1.2.0](https://github.com/eclipse-tractusx/ssi-credential-issuer/releases/tag/v1.2.0) |
 | [Traceability Kit](https://eclipse-tractusx.github.io/docs-kits/category/traceability-kit) | n/a | [6.0.0](https://eclipse-tractusx.github.io/docs-kits/kits/Traceability%20Kit/Traceability%20Kit%20Changelog) |
 
-<!--
-### Unchanged, untested
-
-| Component | Helm Chart (s) | App-/KIT Version (s) | New Functionality |
-| :-------- | :-------------: | :------------------: | :------------------: |
-| [Digital Product Pass (DPP)](https://github.com/eclipse-tractusx/digital-product-pass) | digital-product-pass: [4.0.1](https://github.com/eclipse-tractusx/digital-product-pass/releases/tag/digital-product-pass-4.0.1) | [v4.0.1](https://github.com/eclipse-tractusx/digital-product-pass/releases/tag/v4.0.1) |
-| [Digital Twin Kit](https://eclipse-tractusx.github.io/docs-kits/category/digital-twin-kit) | n/a | [2.0.1](https://eclipse-tractusx.github.io/docs-kits/kits/Digital%20Twin%20Kit/Digital%20Twin%20Kit%20Changelog) |
-[EcoPass Kit](https://eclipse-tractusx.github.io/docs-kits/category/eco-pass-kit) | n/a | [1.5.0](https://eclipse-tractusx.github.io/docs-kits/kits/Eco_Pass_KIT/changelog) |
-| [ESS Kit](https://eclipse-tractusx.github.io/docs-kits/category/ess-kit) | n/a | [0.3.0](https://eclipse-tractusx.github.io/docs-kits/kits/ESS-Kit/ESS%20Kit%20Changelog) |
-| [Item Relationship Service (IRS)](https://github.com/eclipse-tractusx/item-relationship-service) | item-relationship-service: [7.4.0](https://github.com/eclipse-tractusx/item-relationship-service/releases/tag/item-relationship-service-7.4.0) | [5.4.0](https://github.com/eclipse-tractusx/item-relationship-service/releases/tag/5.4.0) |
-| [Knowledge Agents AAS Bridge](https://github.com/eclipse-tractusx/knowledge-agents-aas-bridge) | aas-bridge: [1.13.7](https://github.com/eclipse-tractusx/knowledge-agents-aas-bridge/releases/tag/aas-bridge-1.13.7) | [1.13.7](https://github.com/eclipse-tractusx/knowledge-agents-aas-bridge/releases/tag/v1.13.7) |
-| [Knowledge Agents EDC](https://github.com/eclipse-tractusx/knowledge-agents-edc) | agent-plane: [1.13.22](https://github.com/eclipse-tractusx/knowledge-agents-edc/releases/tag/agent-plane-1.13.22)<br/>agent-plane-azure-vault: [1.13.22](https://github.com/eclipse-tractusx/knowledge-agents-edc/releases/tag/agent-plane-azure-vault-1.13.22) | [v1.13.22](https://github.com/eclipse-tractusx/knowledge-agents-edc/releases/tag/v1.13.22) |
-| [Managed Service Orchestrator](https://github.com/eclipse-tractusx/managed-service-orchestrator) | managed-service-orchestrator: [1.6.0](https://github.com/eclipse-tractusx/managed-service-orchestrator/releases/tag/managed-service-orchestrator-1.6.0) | [v1.5.7](https://github.com/eclipse-tractusx/managed-service-orchestrator/releases/tag/v1.5.7) |
-| [Managed Simple Data Exchanger (SDE)](https://github.com/eclipse-tractusx/managed-simple-data-exchanger) | sde: [0.1.12](https://github.com/eclipse-tractusx/managed-simple-data-exchanger/releases/tag/sde-0.1.12) | frontend: [v2.4.3](https://github.com/eclipse-tractusx/managed-simple-data-exchanger-frontend/releases/tag/v2.4.3)<br/>backend: [v2.4.3](https://github.com/eclipse-tractusx/managed-simple-data-exchanger-backend/releases/tag/v2.4.3) |
-| [PCF Exchange Kit](https://eclipse-tractusx.github.io/docs-kits/category/pcf-exchange-kit) | n/a | [1.2.0](https://eclipse-tractusx.github.io/docs-kits/kits/PCF%20Exchange%20Kit/PCF%20Exchange%20Kit%20Changelog) |
-| [PURIS](https://github.com/eclipse-tractusx/puris) | puris: [2.7.0](https://github.com/eclipse-tractusx/puris/releases/tag/puris-2.7.0) | [2.1.0](https://github.com/eclipse-tractusx/puris/releases/tag/2.1.0) |
-| [PURIS Kit](https://eclipse-tractusx.github.io/docs-kits/category/puris-kit) | n/a | [0.3.0](https://eclipse-tractusx.github.io/docs-kits/kits/PURIS%20Kit/PURIS%20Kit%20Changelog) |
-| [Supply Chain Disruption Notifications Kit](https://eclipse-tractusx.github.io/docs-kits/category/supply-chain-disruption-notifications-kit) | n/a | [1.0.0](https://eclipse-tractusx.github.io/docs-kits/kits/Supply%20Chain%20Disruption%20Notifications%20KIT/Supply%20Chain%20Disruption%20Notifications%20Changelog) |
-| [Trace-X Traceability Application](https://github.com/eclipse-tractusx/traceability-foss) | traceability-foss: [1.3.43](https://github.com/eclipse-tractusx/traceability-foss/releases/tag/helm-charts-1.3.43) | [13.0.1](https://github.com/eclipse-tractusx/traceability-foss/releases/tag/13.0.1) |
-| [Traceability Kit](https://eclipse-tractusx.github.io/docs-kits/category/traceability-kit) | n/a | [5.1.0](https://eclipse-tractusx.github.io/docs-kits/kits/Traceability%20Kit/Traceability%20Kit%20Changelog) |
-| [OSIM Kit](https://eclipse-tractusx.github.io/docs-kits/category/osim-kit) | n/a | [3.0.0](https://eclipse-tractusx.github.io/docs-kits/kits/OSim%20Kit/OSim%20Kit%20Changelog) |
-
--->
-
 ### Known Knowns
 
 - All not listed products and KITs have not been updated and are based on the release 24.08
