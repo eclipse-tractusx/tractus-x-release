@@ -17,7 +17,7 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 | Component | Helm Chart (s) | App-/KIT Version (s) |
 | :-------- | :-------------: | :------------------: |
 | [BPDM KIT](https://eclipse-tractusx.github.io/docs-kits/category/business-partner-kit) | n/a | [7.0.0](https://eclipse-tractusx.github.io/docs-kits/kits/Business%20Partner%20Kit/Changelog) |
-| [Circularity KIT](https://eclipse-tractusx.github.io/docs-kits/kits/Circularity_KIT/page-adoption-view) | n/a | [1.2.0](https://eclipse-tractusx.github.io/docs-kits/kits/Data%20Chain%20Kit/data%20chain%20kit%20changelog) |
+| [Circularity KIT](https://eclipse-tractusx.github.io/docs-kits/kits/Circularity_KIT/page-adoption-view) | n/a | [1.3.0](https://eclipse-tractusx.github.io/docs-kits/kits/Data%20Chain%20Kit/data%20chain%20kit%20changelog) |
 | [DCM Kit](https://eclipse-tractusx.github.io/docs-kits/kits/Demand%20and%20Capacity%20Management%20Kit/adoption-view/overview) | n/a | [1.2.0](https://eclipse-tractusx.github.io/docs-kits/kits/Demand%20and%20Capacity%20Management%20Kit/changelog) |
 | [Digital Twin Registry](https://github.com/eclipse-tractusx/sldt-digital-twin-registry) | digital-twin-registry: [0.6.2](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/digital-twin-registry-0.6.2) | [0.6.2](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/v0.6.2) |
 | [Discovery Finder](https://github.com/eclipse-tractusx/sldt-discovery-finder) | discoveryfinder: [0.4.2](https://github.com/eclipse-tractusx/sldt-discovery-finder/releases/tag/discoveryfinder-0.4.2) | [0.5.2](https://github.com/eclipse-tractusx/sldt-discovery-finder/releases/tag/v0.5.2) |
