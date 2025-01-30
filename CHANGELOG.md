@@ -8,6 +8,56 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 Tractus-X operates on YY.0M.MICRO [Calendar Versioning](https://calver.org/) for overarching, quarterly Releases. Semantic Versioning remains unchanged for all components.
 
+## [25.03] - 2025-03-17
+
+Implemented features can be found [here](https://github.com/orgs/eclipse-tractusx/projects/26/views/39?filterQuery=-label%3Ametadata+is%3Aclosed+status%3ADone+milestone%3A%2225.03%22++)
+
+### Updated
+
+| Component | Helm Chart (s) | App-/KIT Version (s) |
+| :-------- | :-------------: | :------------------: |
+| [BPN DID Resolution Service (BDRS)](https://github.com/eclipse-tractusx/bpn-did-resolution-service) | []() | []() |
+| [Digital Twin Registry](https://github.com/eclipse-tractusx/sldt-digital-twin-registry) | digital-twin-registry: []() | []() 
+| [Discovery Service (BPN Finder)](https://github.com/eclipse-tractusx/sldt-bpn-discovery) | bpndiscovery: []() | []() |
+| [Eclipse Data Space Connector (Tractus-X EDC)](https://github.com/eclipse-tractusx/tractusx-edc) | [0.9.0]() | [0.9.0]() |
+| [Industry Core KIT](https://eclipse-tractusx.github.io/docs-kits/category/industry-core-kit) | n/a | []() |
+| [Item Relationship Service (IRS)](https://github.com/eclipse-tractusx/item-relationship-service) | item-relationship-service: []() | []() |
+| [Policy Hub](https://github.com/eclipse-tractusx/policy-hub) | policy-hub: []() | []() |
+|  [Portal](https://github.com/eclipse-tractusx/portal) | portal: []() | registration: []()<br>frontend: []()<br>backend: []()<br>assets: []() | 
+| [PURIS](https://github.com/eclipse-tractusx/puris) | puris: []() | []() |
+| [PURIS Kit]() | n/a | []() |
+| [Self Description (SD) Factory](https://github.com/eclipse-tractusx/sd-factory) | sdfactory: []() | []() |
+| [Semantic Hub](https://github.com/eclipse-tractusx/sldt-semantic-hub) | semantic-hub: []() | []() | 
+| [SSI Authority & Schema Registry](https://github.com/eclipse-tractusx/ssi-authority-schema-registry) | ssi-asr: []() | []() |
+| [SSI Credential Issuer](https://github.com/eclipse-tractusx/ssi-credential-issuer) | ssi-credential-issuer: []() | []() | 
+| [Trace-X Traceability Application](https://github.com/eclipse-tractusx/traceability-foss) | helm-charts: []() | []() |
+
+### Known Knowns
+
+- [Digital Product Pass (DPP)](https://github.com/eclipse-tractusx/digital-product-pass) will be not part of the release
+- [Knowledge Agents](https://github.com/eclipse-tractusx/knowledge-agents) is not part of this release but was tested with the EDC release candidate 0.8.0-RC4
+
+### Runtime
+
+The release has been tested
+
+- on [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) versions: `X.XX.X`
+- with [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) versions: `XX.X.X.`
+
+Note: Tractus-X EDC has been tested on both Postgresql versions: 15.x and 16.x
+
+### Using helm with central helm registry
+
+You can search all released helm charts with the following commands:
+
+```shell
+helm repo add tractusx-dev https://eclipse-tractusx.github.io/charts/dev
+helm repo update tractusx-dev
+helm search repo tractusx-dev --versions
+```
+
+For installation details, please see the referenced Repositories / Releases.
+
 ## [24.12] - 2024-12-02
 
 Implemented features can be found [here](https://github.com/orgs/eclipse-tractusx/projects/26/views/33?filterQuery=milestone%3A%2224.12%22+-label%3Ametadata+is%3Aclosed++status%3ADone)
