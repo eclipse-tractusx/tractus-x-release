@@ -14,8 +14,8 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 
 ### Added
 
-| Component | Helm Chart (s) | App-/KIT Version (s) |
-| :-------- | :-------------: | :------------------: |
+| Component | Helm Chart (s) | App-/KIT Version (s) | 
+| :-------- | :-------------: | :------------------: | 
 | [Quality Kit]() []() | []() |
 
 ### Updated
@@ -23,26 +23,28 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 | Component | Helm Chart (s) | App-/KIT Version (s) | 
 | :-------- | :-------------: | :------------------: | 
 | [BPN DID Resolution Service (BDRS)](https://github.com/eclipse-tractusx/bpn-did-resolution-service) | [0.5.4](https://github.com/eclipse-tractusx/bpn-did-resolution-service/releases/tag/0.5.4) | [0.5.4](https://github.com/eclipse-tractusx/bpn-did-resolution-service/releases/tag/0.5.4) |
-| [Digital Twin Registry](https://github.com/eclipse-tractusx/sldt-digital-twin-registry) | digital-twin-registry: [0.7.0](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/digital-twin-registry-0.7.0) | [0.7.0](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/v0.7.0) 
+| [Digital Twin Registry](https://github.com/eclipse-tractusx/sldt-digital-twin-registry) | [digital-twin-registry-0.7.0](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/digital-twin-registry-0.7.0) | [0.7.0](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/v0.7.0) 
 | [Discovery Finder](https://github.com/eclipse-tractusx/sldt-discovery-finder) | discoveryfinder: [0.5.1](https://github.com/eclipse-tractusx/sldt-discovery-finder/releases/tag/discoveryfinder-0.5.1) | [0.6.1](https://github.com/eclipse-tractusx/sldt-discovery-finder/releases/tag/v0.6.1) |
-| [Discovery Service (BPN Finder)](https://github.com/eclipse-tractusx/sldt-bpn-discovery) | bpndiscovery: [0.5.1](https://github.com/eclipse-tractusx/sldt-bpn-discovery/releases/tag/bpndiscovery-0.5.1) | [0.6.1](https://github.com/eclipse-tractusx/sldt-bpn-discovery/releases/tag/v0.6.1) |
+| [Discovery Service (BPN Finder)](https://github.com/eclipse-tractusx/sldt-bpn-discovery) | [bpndiscovery-0.5.1](https://github.com/eclipse-tractusx/sldt-bpn-discovery/releases/tag/bpndiscovery-0.5.1) | [0.6.1](https://github.com/eclipse-tractusx/sldt-bpn-discovery/releases/tag/v0.6.1) |
 | [Eclipse Data Space Connector (Tractus-X EDC)](https://github.com/eclipse-tractusx/tractusx-edc) | [0.9.0](https://github.com/eclipse-tractusx/tractusx-edc/releases/tag/0.9.0-rc2) | [0.9.0](https://github.com/eclipse-tractusx/tractusx-edc/releases/tag/0.9.0-rc2) |
 | [Golden Record Business Partner Number (BPN) Service](https://github.com/eclipse-tractusx/bpdm) | bpdm: [5.3.0](https://github.com/eclipse-tractusx/bpdm/releases/tag/bpdm-5.3.0) | [6.3.0](https://github.com/eclipse-tractusx/bpdm/releases/tag/v6.3.0) |
 | [Identity and Access Management (IAM)](https://github.com/eclipse-tractusx/portal-iam) | centralidp: [x.x.x](https://github.com/eclipse-tractusx/portal-iam/releases/tag/centralidp-x.x.x)<br>sharedidp: [x.x.x](https://github.com/eclipse-tractusx/portal-iam/releases/tag/sharedidp-x.x.x) | keycloak: [xx.xx](https://www.keycloak.org/docs/latest/release_notes/index.html#keycloak-xx-x-x) |
 | [Industry Core KIT](https://eclipse-tractusx.github.io/docs-kits/category/industry-core-kit) | n/a | [1.4.0](https://eclipse-tractusx.github.io/docs-kits/kits/Industry%20Core%20Kit/Industry%20Core%20Kit%20Changelog) |
 | [Item Relationship Service (IRS)](https://github.com/eclipse-tractusx/item-relationship-service) | item-relationship-service: [8.0.1](https://github.com/eclipse-tractusx/item-relationship-service/releases/tag/item-relationship-service-8.0.1) | [6.0.1](https://github.com/eclipse-tractusx/item-relationship-service/releases/tag/6.0.1) |
 | [Policy Hub](https://github.com/eclipse-tractusx/policy-hub) | policy-hub: [1.3.0](https://github.com/eclipse-tractusx/policy-hub/releases/tag/policy-hub-1.3.0) | [1.3.0](https://github.com/eclipse-tractusx/policy-hub/releases/tag/policy-hub-1.3.0) |
-|  [Portal](https://github.com/eclipse-tractusx/portal) | portal: [x.x.x](https://github.com/eclipse-tractusx/portal/releases/tag/portal-x.x.x) | registration: [v2.1.0](https://github.com/eclipse-tractusx/portal-frontend-registration/releases/tag/vx.x.x)<br>frontend: [vx.x.x](https://github.com/eclipse-tractusx/portal-frontend/releases/tag/vx.x.x)<br>backend: [vx.x.x](https://github.com/eclipse-tractusx/portal-backend/releases/tag/vx.x.x)<br>assets: [vx.x.x](https://github.com/eclipse-tractusx/portal-assets/releases/tag/vx.x.x) | 
+|  [Portal](https://github.com/eclipse-tractusx/portal) | portal: [x.x.x](https://github.com/eclipse-tractusx/portal/releases/tag/portal-x.x.x) | registration: [v2.1.0](https://github.com/eclipse-tractusx/portal-frontend-registration/releases/tag/vx.x.x)<br>frontend: [vx.x.x](https://github.com/eclipse-tractusx/portal-frontend/releases/tag/vx.x.x)<br>backend: [vx.x.x](https://github.com/eclipse-tractusx/portal-backend/releases/tag/vx.x.x)<br>assets: [vx.x.x](https://github.com/eclipse-tractusx/portal-assets/releases/tag/vx.x.x) |
 | [PURIS](https://github.com/eclipse-tractusx/puris) | puris: []() | []() |
 | [PURIS Kit]() | n/a | []() |
 | [Self Description (SD) Factory](https://github.com/eclipse-tractusx/sd-factory) | sdfactory: [2.1.27](https://github.com/eclipse-tractusx/sd-factory/releases/tag/sdfactory-2.1.27) | [2.1.18](https://github.com/eclipse-tractusx/sd-factory/releases/tag/v2.1.18) |
 | [Semantic Hub](https://github.com/eclipse-tractusx/sldt-semantic-hub) | semantic-hub: [semantic-hub-0.5.0](https://github.com/eclipse-tractusx/sldt-semantic-hub/releases/tag/semantic-hub-0.5.0) | [0.6.0](https://github.com/eclipse-tractusx/sldt-semantic-hub/releases/tag/v0.6.0) | 
 | [SSI Authority & Schema Registry](https://github.com/eclipse-tractusx/ssi-authority-schema-registry) | ssi-asr: [1.2.0](https://github.com/eclipse-tractusx/ssi-authority-schema-registry/releases/tag/ssi-asr-1.2.0) | [1.2.0](https://github.com/eclipse-tractusx/ssi-authority-schema-registry/releases/tag/v1.0.0) |
 | [SSI Credential Issuer](https://github.com/eclipse-tractusx/ssi-credential-issuer) | ssi-credential-issuer: [1.3.0](https://github.com/eclipse-tractusx/ssi-credential-issuer/releases/tag/ssi-credential-issuer-1.3.0) | [1.3.0](https://github.com/eclipse-tractusx/ssi-credential-issuer/releases/tag/v1.3.0) | 
-| [Trace-X Traceability Application](https://github.com/eclipse-tractusx/traceability-foss) | helm-charts: [1.4.0](https://github.com/eclipse-tractusx/traceability-foss/releases/tag/helm-charts-1.4.0) | [14.0.0](https://github.com/eclipse-tractusx/traceability-foss/releases/tag/14.0.0) |
+| [Trace-X Traceability Application](https://github.com/eclipse-tractusx/traceability-foss) | helm-charts: [1.4.1](https://github.com/eclipse-tractusx/traceability-foss/releases/tag/helm-charts-1.4.1) | [14.0.1](https://github.com/eclipse-tractusx/traceability-foss/releases/tag/14.0.1) |
 
 ### Known Knowns
 
+- Any EDC will not work with a Hashicorp Vault version 1.18.1 as this version has a bug, incompatibilities to other versions are not known
+- BDRS will not work with a Hashicorp Vault version 1.18.1 as this version has a bug, incompatibilities to other versions are not known.
 - [Digital Product Pass (DPP)](https://github.com/eclipse-tractusx/digital-product-pass) will be not part of the release
 - [Knowledge Agents](https://github.com/eclipse-tractusx/knowledge-agents) is not part of this release but was tested with the EDC release candidate 0.8.0-RC4
 
