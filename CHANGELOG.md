@@ -41,6 +41,9 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 
 ### Known Knowns
 
+- The Eclipse Tractus-X release does not include an Identity Wallet. The development team decided on a temporary bridging solution, based on a commercial application, to test and ship the releases 24.08, 24.12 and 25.03. Without implementing this interim solution, participants will not be able to fully utilize this release in consequence.
+- For E2E Testing, the [2.2.1](https://github.com/SAP/ssi-dim-middle-layer/releases/tag/v2.2.1) of the [SSI DIM Middle Layer](https://github.com/SAP/ssi-dim-middle-layer) was used - this component is FOSS but the currently used wallet (see previous item) is not.
+
 #### EDC
 
 - Any EDC will not work with a Hashicorp Vault version 1.18.1 as this version has a bug, incompatibilities to other versions are not known.
