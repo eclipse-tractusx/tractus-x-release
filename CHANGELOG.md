@@ -68,6 +68,20 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
   - As of v2.4.0, the portal backend will activate connector without updated legal person self description document to allow for a transition phase. The connector will not have a document until reissuance for both company and connector is triggered by operators.
   - An automatic reissuance system is planned for the future.
 
+#### Miscellaneous
+
+- All not listed products and KITs have not been updated and are based on the release 24.12
+  - These products were not part of the e2e testing phase
+  - And are not tested with the current EDC version 0.9.0
+- This Tractus-X release does not include a Managed Identity Wallet (MIW). The development team decided on a temporary bridging solution, based on a commercial application, to test and ship Release 24.08. Without implementing this interim solution, participants will not be able to fully utilize this Tractus-X release in consequence.
+- For E2E Testing, the [2.1.1](https://github.com/SAP/ssi-dim-middle-layer/releases/tag/v2.1.1) of the [SSI DIM Middle Layer](https://github.com/SAP/ssi-dim-middle-layer) was used - this component is FOSS but the currently used wallet (see previous item) is not.
+- Security concern about exposed technical users when subscribing BPDM services over the Portal -> see  [according issue](https://github.com/eclipse-tractusx/sig-release/issues/987)
+- BPNL Group Validation for a Policy does not allow a Collection as a rightOperand -> see [Issue](https://github.com/eclipse-tractusx/tractusx-edc/issues/1674)
+- EDR token refresh implementation is inconsistent and deviates from the documentation -> see [Issue](https://github.com/eclipse-tractusx/tractusx-edc/issues/1565)
+- Consumer-Asset with the same ID as a Provider-Asset Cannot Be Deleted After Contract Negotiation -> see [Issue](https://github.com/eclipse-edc/Connector/issues/4583)
+- Termination of pull transfer process from consumer side does not succeed -> see [Issue](https://github.com/eclipse-edc/Connector/issues/4592)
+- Fatal error while resume PULL transfer process -> see [Issue](https://github.com/eclipse-edc/Connector/issues/4591)
+
 ### Runtime
 
 The release has been tested
