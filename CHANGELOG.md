@@ -21,7 +21,7 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 
 | Component | Helm Chart (s) | App-/KIT Version (s) |
 | :-------- | :-------------: | :------------------: |
-| [BPN DID Resolution Service (BDRS)](https://github.com/eclipse-tractusx/bpn-did-resolution-service) | [0.5.4](https://github.com/eclipse-tractusx/bpn-did-resolution-service/releases/tag/0.5.4) | [0.5.4](https://github.com/eclipse-tractusx/bpn-did-resolution-service/releases/tag/0.5.4) |
+| [BPN DID Resolution Service (BDRS)](https://github.com/eclipse-tractusx/bpn-did-resolution-service) | bdrs: [0.5.4](https://github.com/eclipse-tractusx/bpn-did-resolution-service/releases/tag/0.5.4) | [0.5.4](https://github.com/eclipse-tractusx/bpn-did-resolution-service/releases/tag/0.5.4) |
 | [Digital Twin Registry](https://github.com/eclipse-tractusx/sldt-digital-twin-registry) | [digital-twin-registry-0.7.0](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/digital-twin-registry-0.7.0) | [0.7.0](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/v0.7.0) |
 | [Discovery Finder](https://github.com/eclipse-tractusx/sldt-discovery-finder) | discoveryfinder: [0.5.1](https://github.com/eclipse-tractusx/sldt-discovery-finder/releases/tag/discoveryfinder-0.5.1) | [0.6.1](https://github.com/eclipse-tractusx/sldt-discovery-finder/releases/tag/v0.6.1) |
 | [Discovery Service (BPN Finder)](https://github.com/eclipse-tractusx/sldt-bpn-discovery) | [bpndiscovery-0.5.1](https://github.com/eclipse-tractusx/sldt-bpn-discovery/releases/tag/bpndiscovery-0.5.1) | [0.6.1](https://github.com/eclipse-tractusx/sldt-bpn-discovery/releases/tag/v0.6.1) |
