@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 Tractus-X operates on YY.0M.MICRO [Calendar Versioning](https://calver.org/) for overarching, quarterly Releases. Semantic Versioning remains unchanged for all components.
 
+|  Category | Meaning |
+| -------- | -------------|
+| Added | This component was not part of a previous release package  |
+ |Updated | The component was already part of some previous release, but has now undergone a change |
+ |Removed / Deprecated |  The component was deliberately removed from the scope of the release package |
+
 ## [25.03] - 2025-03-17
 
 Implemented features can be found [here](https://github.com/orgs/eclipse-tractusx/projects/26/views/39)
@@ -38,6 +44,13 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 | [SSI Authority & Schema Registry](https://github.com/eclipse-tractusx/ssi-authority-schema-registry) | ssi-asr: [1.2.0](https://github.com/eclipse-tractusx/ssi-authority-schema-registry/releases/tag/ssi-asr-1.2.0) | [1.2.0](https://github.com/eclipse-tractusx/ssi-authority-schema-registry/releases/tag/v1.2.0) |
 | [SSI Credential Issuer](https://github.com/eclipse-tractusx/ssi-credential-issuer) | ssi-credential-issuer: [1.3.0](https://github.com/eclipse-tractusx/ssi-credential-issuer/releases/tag/ssi-credential-issuer-1.3.0) | [1.3.0](https://github.com/eclipse-tractusx/ssi-credential-issuer/releases/tag/v1.3.0) |
 | [Trace-X Traceability Application](https://github.com/eclipse-tractusx/traceability-foss) | traceability-foss: [1.4.1](https://github.com/eclipse-tractusx/traceability-foss/releases/tag/helm-charts-1.4.1) | [14.0.1](https://github.com/eclipse-tractusx/traceability-foss/releases/tag/14.0.1) |
+
+### Removed / Deprecated
+
+| Component | Helm Chart (s) | App-/KIT Version (s) |
+| :-------- | :-------------: | :------------------: |
+| [Knowledge Agents](https://github.com/eclipse-tractusx/knowledge-agents) | remoting-agent: [1.14.24](https://github.com/eclipse-tractusx/knowledge-agents/releases/tag/remoting-agent-1.14.24)<br>provisioning-agent: [1.14.24](https://github.com/eclipse-tractusx/knowledge-agents/releases/tag/provisioning-agent-1.14.24)<br>conforming-agent: [1.14.24](https://github.com/eclipse-tractusx/knowledge-agents/releases/tag/conforming-agent-1.14.24)<br>matchmaking-agent: [1.14.24](https://github.com/eclipse-tractusx/knowledge-agents/releases/tag/matchmaking-agent-1.14.24) | remoting-agent: [1.14.24](https://github.com/eclipse-tractusx/knowledge-agents/releases/tag/v1.14.24)<br>provisioning-agent: [1.14.24](https://github.com/eclipse-tractusx/knowledge-agents/releases/tag/v1.14.24)<br>conforming-agent: [1.14.24](https://github.com/eclipse-tractusx/knowledge-agents/releases/tag/v1.14.24)<br>matchmaking-agent: [1.14.24](https://github.com/eclipse-tractusx/knowledge-agents/releases/tag/v1.14.24) |
+| [Digital Product Pass (DPP)](https://github.com/eclipse-tractusx/digital-product-pass) | digital-product-pass: [4.0.1](https://github.com/eclipse-tractusx/digital-product-pass/releases/tag/digital-product-pass-4.0.1) | [v4.0.1](https://github.com/eclipse-tractusx/digital-product-pass/releases/tag/v4.0.1) |
 
 ### Known Knowns
 
