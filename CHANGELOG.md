@@ -67,7 +67,6 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
   - And are not tested with the current EDC version 0.9.0
 - The Eclipse Tractus-X release does not include an Identity Wallet. The development team decided on a temporary bridging solution, based on a commercial application, to test and ship the releases 24.08, 24.12 and 25.03. Without implementing this interim solution, participants will not be able to fully utilize this release in consequence.
 - For E2E Testing, the [2.2.1](https://github.com/SAP/ssi-dim-middle-layer/releases/tag/v2.2.1) of the [SSI DIM Middle Layer](https://github.com/SAP/ssi-dim-middle-layer) was used - this component is FOSS but the currently used wallet (see previous item) is not.
-- Security concern about exposed technical users when subscribing BPDM services over the Portal -> see  [according issue](https://github.com/eclipse-tractusx/sig-release/issues/987)
 - BPNL Group Validation for a Policy does not allow a Collection as a rightOperand -> see [Issue](https://github.com/eclipse-tractusx/tractusx-edc/issues/1674)
 - EDR token refresh implementation is inconsistent and deviates from the documentation -> see [Issue](https://github.com/eclipse-tractusx/tractusx-edc/issues/1565)
 - Consumer-Asset with the same ID as a Provider-Asset Cannot Be Deleted After Contract Negotiation -> see [Issue](https://github.com/eclipse-edc/Connector/issues/4583)
