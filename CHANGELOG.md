@@ -14,7 +14,7 @@ Tractus-X operates on YY.0M.MICRO [Calendar Versioning](https://calver.org/) for
  |Updated | The component was already part of some previous release, but has now undergone a change |
  |Removed / Deprecated |  The component was deliberately removed from the scope of the release package |
 
-## [25.03] - 2025-03-17
+## [25.03] - 2025-03-19
 
 Implemented features can be found [here](https://github.com/orgs/eclipse-tractusx/projects/26/views/39)
 
