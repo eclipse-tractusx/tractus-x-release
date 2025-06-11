@@ -22,8 +22,8 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 
 | Component | Helm Chart (s) | App-/KIT Version (s) |
 | :-------- | :-------------: | :------------------: |
-| [ Eclipse Tractus-X Software Development KIT (SDK)](https://github.com/eclipse-tractusx/tractusx-sdk) | n/a | [v0.0.7](https://github.com/eclipse-tractusx/tractusx-sdk/releases/tag/v0.0.7) |
-| [Industry Core Hub](https://github.com/eclipse-tractusx/industry-core-hub) | [0.2.1](https://github.com/eclipse-tractusx/industry-core-hub/releases/tag/industry-core-hub-0.2.1) | [v0.1.0](https://github.com/eclipse-tractusx/industry-core-hub/releases/tag/v0.1.0)|
+| [Eclipse Tractus-X Software Development KIT (SDK)](https://github.com/eclipse-tractusx/tractusx-sdk) | n/a | [v0.0.7](https://github.com/eclipse-tractusx/tractusx-sdk/releases/tag/v0.0.7) |
+| [Industry Core Hub](https://github.com/eclipse-tractusx/industry-core-hub) | industry-core-hub:[0.2.1](https://github.com/eclipse-tractusx/industry-core-hub/releases/tag/industry-core-hub-0.2.1) | [v0.1.0](https://github.com/eclipse-tractusx/industry-core-hub/releases/tag/v0.1.0)|
 
 ### Updated
 
