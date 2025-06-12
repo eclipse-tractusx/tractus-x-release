@@ -92,9 +92,13 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 
 ### Runtime
 
-- on [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) versions: `1.29.10.`
-- with [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) versions: `15.4.0-debian-11-r45`
-- the EDC version [0.10.0](https://github.com/eclipse-tractusx/tractusx-edc/releases/tag/0.10.0) was used for testing
+The following runtime has been used during end-to-end test:
+
+- [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) version: `1.29.10`
+- Applications used 
+  - [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) version: `15.4.0` or more specifically `15.4.0-debian-11-r45`
+  - EDC version [0.10.0](https://github.com/eclipse-tractusx/tractusx-edc/releases/tag/0.10.0)
+  - DTR version [0.8.0](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/v0.8.0)
 
 Note: Tractus-X EDC has been tested on both Postgresql versions: 15.x and 16.x
 
