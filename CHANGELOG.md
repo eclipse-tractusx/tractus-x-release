@@ -65,7 +65,7 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 - No Authentication at the backend & frontend provided [see here](https://github.com/eclipse-tractusx/industry-core-hub/issues/254)
 - No profile & settings provided at frontend (just a mock) [see here](https://github.com/eclipse-tractusx/industry-core-hub/issues/254)
 - Part Instance twins not included in scope (not supported in backend, and mocked in the frontend) [see here](https://github.com/eclipse-tractusx/industry-core-hub/issues/261)
-- Not submodel is displayed in the frontend, also is not possible to create submodels. [see here](https://github.com/eclipse-tractusx/industry-core-hub/issues/260)
+- Not submodel is displayed in the frontend, also is not possible to create submodels [see here](https://github.com/eclipse-tractusx/industry-core-hub/issues/260)
 - No display of aspect models in frontend. (PCF and other data models are not supported, just PartTypeInformation v1.0.0) [see here](https://github.com/eclipse-tractusx/industry-core-hub/issues/260)
 - It is not possible to unshare once shared [see here](https://github.com/eclipse-tractusx/industry-core-hub/issues/262)
 
