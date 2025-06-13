@@ -55,7 +55,7 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
   - These products were not part of the e2e testing phase
   - And are not tested with the current EDC version 0.10.0 and the current DTR version 0.8.0
 - The Eclipse Tractus-X release does not include an Identity Wallet. The development team decided on a temporary bridging solution, based on a commercial application, to test and ship the releases 24.08, 24.12, 25.03 and 25.06. Without implementing this interim solution, participants will not be able to fully utilize this release in consequence.
-- For E2E Testing, the [2.2.1](https://github.com/SAP/ssi-dim-middle-layer/releases/tag/v2.2.1) of the [SSI DIM Middle Layer](https://github.com/SAP/ssi-dim-middle-layer) was used - this component is FOSS but the currently used wallet (see previous item) is not
+- For E2E Testing, the [2.2.3](https://github.com/SAP/ssi-dim-middle-layer/releases/tag/v2.2.3) of the [SSI DIM Middle Layer](https://github.com/SAP/ssi-dim-middle-layer) was used - this component is FOSS but the currently used wallet (see previous item) is not
 
 #### BPDM
 
