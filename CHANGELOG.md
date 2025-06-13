@@ -36,7 +36,7 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 | [Identity and Access Management (IAM)](https://github.com/eclipse-tractusx/portal-iam) | centralidp: [4.2.0](https://github.com/eclipse-tractusx/portal-iam/releases/tag/centralidp-4.2.0) <br/> sharedidp: [4.2.0](https://github.com/eclipse-tractusx/portal-iam/releases/tag/sharedidp-4.2.0) | keycloak: [25.0.6](https://www.keycloak.org/docs/latest/release_notes/index.html#keycloak-25-0-0) |
 | [Item Relationship Service (IRS)](https://github.com/eclipse-tractusx/item-relationship-service) | item-relationship-service: [9.0.0](https://github.com/eclipse-tractusx/item-relationship-service/releases/tag/item-relationship-service-9.0.0) | [7.0.1](https://github.com/eclipse-tractusx/item-relationship-service/releases/tag/7.0.1) |
 | [Policy Hub](https://github.com/eclipse-tractusx/policy-hub) | policy-hub: [1.3.1](https://github.com/eclipse-tractusx/policy-hub/releases/tag/policy-hub-1.3.1) | [1.3.1](https://github.com/eclipse-tractusx/policy-hub/releases/tag/v1.3.1) |
-| [Portal](https://github.com/eclipse-tractusx/portal) | portal: [2.5.0](https://github.com/eclipse-tractusx/portal/releases/tag/portal-2.5.0) | registration: [v2.2.1](https://github.com/eclipse-tractusx/portal-frontend-registration/releases/tag/v2.2.1)<br/>frontend: [v2.5.0](https://github.com/eclipse-tractusx/portal-frontend/releases/tag/v2.5.0)<br/>backend: [v2.5.0](https://github.com/eclipse-tractusx/portal-backend/releases/tag/v2.5.0)<br/>assets: [v2.5.0](https://github.com/eclipse-tractusx/portal-assets/releases/tag/v2.5.0) |
+| [Portal](https://github.com/eclipse-tractusx/portal) | portal: [2.5.0](https://github.com/eclipse-tractusx/portal/releases/tag/portal-2.5.0) | registration: [2.2.1](https://github.com/eclipse-tractusx/portal-frontend-registration/releases/tag/v2.2.1)<br/>frontend: [2.5.0](https://github.com/eclipse-tractusx/portal-frontend/releases/tag/v2.5.0)<br/>backend: [2.5.0](https://github.com/eclipse-tractusx/portal-backend/releases/tag/v2.5.0)<br/>assets: [2.5.0](https://github.com/eclipse-tractusx/portal-assets/releases/tag/v2.5.0) |
 | [PURIS](https://github.com/eclipse-tractusx/puris) | puris: [3.0.1](https://github.com/eclipse-tractusx/puris/releases/tag/puris-3.0.1) | [3.1.0](https://github.com/eclipse-tractusx/puris/releases/tag/3.1.0) |
 | [Self Description (SD) Factory](https://github.com/eclipse-tractusx/sd-factory) | sdfactory: [2.1.33](https://github.com/eclipse-tractusx/sd-factory/releases/tag/sdfactory-2.1.33) | [2.1.24](https://github.com/eclipse-tractusx/sd-factory/releases/tag/v2.1.24) |
 | [SSI Authority & Schema Registry](https://github.com/eclipse-tractusx/ssi-authority-schema-registry) | ssi-asr: [2.0.0](https://github.com/eclipse-tractusx/ssi-authority-schema-registry/releases/tag/ssi-asr-2.0.0) | [2.0.0](https://github.com/eclipse-tractusx/ssi-authority-schema-registry/releases/tag/v2.0.0) |
@@ -44,10 +44,6 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 | [Supply Chain Disruption Notification KIT](https://eclipse-tractusx.github.io/docs-kits/next/kits/supply-chain-disruption-notification-kit/changelog)| n/a | [2.0.0](https://eclipse-tractusx.github.io/docs-kits/next/kits/supply-chain-disruption-notification-kit/changelog)|
 | [Trace-X Traceability Application](https://github.com/eclipse-tractusx/traceability-foss) | traceability-foss: [1.4.3](https://github.com/eclipse-tractusx/traceability-foss/releases/tag/helm-charts-1.4.3) | [15.0.1](https://github.com/eclipse-tractusx/traceability-foss/releases/tag/15.0.1) |
 | [Traceability KIT](https://eclipse-tractusx.github.io/docs-kits/next/category/traceability-kit) | n/a| [6.1.0](https://eclipse-tractusx.github.io/docs-kits/next/kits/traceability-kit/changelog/)|
-
-### Removed / Deprecated
-
-| Component | Helm Chart (s) | App-/KIT Version (s) |
 
 ### Known Knowns
 
