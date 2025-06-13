@@ -74,6 +74,38 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 
 - Persistent submodel service needed for end-to-end stability [see here](https://github.com/eclipse-tractusx/traceability-foss/issues/1459)
 
+#### IAM
+
+Open issues:
+
+- Please refer to the [list of open bugs](https://github.com/eclipse-tractusx/portal-iam/issues?q=is%3Aopen+is%3Aissue+label%3Abug).
+custom login themes break when inserting HTML/CSS/JavaScript code in the IdP display name
+
+The following issue was resolved with the upgrade to version 25:
+
+- Refresh token rotation causes page reload in frontend apps when using multiple tabs, see [User Token Lifespan](https://github.com/eclipse-tractusx/portal-iam/blob/v4.2.0/docs/consultation/workshops/workshop-20231005.md#user-token-lifespan)
+
+#### Portal
+
+##### Backend
+
+- Please refer to the [list of open bugs](https://github.com/eclipse-tractusx/portal-backend/issues?q=is%3Aopen+is%3Aissue+label%3Abug).
+- Connector URL: Updating connector URL for connectors with missing SD Document is not working [see here](https://github.com/eclipse-tractusx/portal-backend/issues/1346)
+- Note for Gaia-X Clearing House Tagus upgrade:
+  - If a company was onboarded with ELBE clearing house, the legal person self description document is not accepted when creating a connector with newer versions of the clearing house. Portal operators are advised to create new legal person and connector self description documents for all previously onboarded companies. The portal backend will activate connector without updated legal person self description document to allow for a transition phase. The connector will not have a document until reissuance for both company and connector is triggered by operators.
+- Validation Limitations: pattern validation for URL inputs in POST and PUT endpoints is currently limited, potentially allowing invalid URLs to be accepted [see here](https://github.com/eclipse-tractusx/portal-backend/issues/587)
+- Validation of File Upload Limitation: it is recommended to make use of an existing trustworthy 3rd party virus-scan service for a more broad scan for known malicious signatures [see here](https://github.com/eclipse-tractusx/portal-backend/issues/779)
+- In Memory Storage Limitation: sensitive information (such as passwords) is read in an unencrypted manner in memory.
+
+##### Frontend
+
+- Please refer to the [list of open bugs](https://github.com/eclipse-tractusx/portal-frontend/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
+- Auto-setup feature for App Subscriptions: validation by ValidatingInput component is triggered on opening pop up [see here](https://github.com/eclipse-tractusx/portal-frontend/issues/1589)
+- Note for Gaia-X Clearing House Tagus upgrade
+  - If a company was onboarded with ELBE clearing house, the legal person self description document is not accepted when creating a connector with newer versions of the clearing house. Portal operators are advised to create new legal person and connector self description documents for all previously onboarded companies. The portal backend will activate connector without updated legal person self description document to allow for a transition phase. The connector will not have a document until reissuance for both company and connector is triggered by operators.
+- Feature Support and Development for auto-setup Process Worker: there is no frontend support for the extended auto-setup process worker, specifically in terms of error handling and status transparency.
+- During end-to-end testing, some minor issues and in regards to system internal notifications as well as the UI were detected.
+
 #### Software Development KIT
 
 - EDC Version specified is v0_9_0 but works with v0.10.0 [see here](https://github.com/eclipse-tractusx/tractusx-sdk/issues/115)
@@ -95,7 +127,7 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 The following runtime has been used during end-to-end test:
 
 - [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) version: `1.29.10`
-- Applications used 
+- Applications used
   - [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) version: `15.4.0` or more specifically `15.4.0-debian-11-r45`
   - EDC version [0.10.0](https://github.com/eclipse-tractusx/tractusx-edc/releases/tag/0.10.0)
   - DTR version [0.8.0](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/v0.8.0)
