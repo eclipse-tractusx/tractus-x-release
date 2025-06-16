@@ -70,17 +70,6 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 
 - Persistent submodel service needed for end-to-end stability [see here](https://github.com/eclipse-tractusx/traceability-foss/issues/1459)
 
-#### IAM
-
-Open issues:
-
-- Please refer to the [list of open bugs](https://github.com/eclipse-tractusx/portal-iam/issues?q=is%3Aopen+is%3Aissue+label%3Abug).
-custom login themes break when inserting HTML/CSS/JavaScript code in the IdP display name
-
-The following issue was resolved with the upgrade to version 25:
-
-- Refresh token rotation causes page reload in frontend apps when using multiple tabs, see [User Token Lifespan](https://github.com/eclipse-tractusx/portal-iam/blob/v4.2.0/docs/consultation/workshops/workshop-20231005.md#user-token-lifespan)
-
 #### Portal
 
 ##### Backend
