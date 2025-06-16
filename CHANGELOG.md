@@ -87,11 +87,6 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 - EDC Version specified is v0_9_0 but works with v0.10.0 [see here](https://github.com/eclipse-tractusx/tractusx-sdk/issues/115)
 - EDC Service has not factory method. [see here](https://github.com/eclipse-tractusx/tractusx-sdk/issues/115)
 
-#### SSI Credential Issuer
-
-- The database is capable of storing documents of type PRESENTATION through a POST API call, even though this functionality is not exposed through any specific API endpoint, indicating an undocumented feature or a future use case not yet realized
-- The DIM Status List is presently included in both the configuration file and the outbound wallet post body, which is against our recommendation as we believe this function should be autonomously managed by the wallet. The status list is defined within the component configuration, suggesting an interim solution with an intention to phase out this approach, reinforcing that the status list should not be integral to the interface in the long term
-
 #### Trace-X Traceability Application
 
 - The "Show Details Table" function is non-functional in the as Planned view [see here](https://github.com/eclipse-tractusx/sig-release/issues/1443)
