@@ -22,7 +22,6 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 
 | Component | Helm Chart (s) | App-/KIT Version (s) |
 | :-------- | :-------------: | :------------------: |
-| | | |
 
 ### Updated
 
