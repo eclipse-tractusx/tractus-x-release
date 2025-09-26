@@ -39,7 +39,7 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 |[PURIS KIT](https://eclipse-tractusx.github.io/docs-kits/category/puris-kit)| n/a | [0.4.0](https://eclipse-tractusx.github.io/docs-kits/kits/puris-kit/changelog)|
 | [Self Description (SD) Factory](https://github.com/eclipse-tractusx/sd-factory) | sdfactory: [2.1.34](https://github.com/eclipse-tractusx/sd-factory/releases/tag/sdfactory-2.1.34) | [2.1.25](https://github.com/eclipse-tractusx/sd-factory/releases/tag/v2.1.25) |
 | [Supply Chain Disruption Notification KIT](https://eclipse-tractusx.github.io/docs-kits/next/kits/supply-chain-disruption-notification-kit/changelog)| n/a | [2.0.0](https://eclipse-tractusx.github.io/docs-kits/next/kits/supply-chain-disruption-notification-kit/changelog)|
-| [Tractus-X Software Development KIT (SDK)](https://github.com/eclipse-tractusx/tractusx-sdk) | n/a | [v0.4.1](https://github.com/eclipse-tractusx/tractusx-sdk/releases/tag/v0.4.1) |
+| [Tractus-X Software Development KIT (SDK)](https://github.com/eclipse-tractusx/tractusx-sdk) | n/a | [v0.5.0](https://github.com/eclipse-tractusx/tractusx-sdk/releases/tag/v0.5.0) |
 
 ### Known Knowns
 
