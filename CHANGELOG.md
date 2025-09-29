@@ -24,7 +24,6 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 | :-------- | :-------------: | :------------------: |
 | [Data Trust & Security KIT](https://eclipse-tractusx.github.io/docs-kits/next/kits/data-trust-and-security-kit/adoption-view) | n/a | [0.0.1](https://eclipse-tractusx.github.io/docs-kits/next/kits/data-trust-and-security-kit/changelog#001) |
 
-
 ### Updated
 
 | Component | Helm Chart (s) | App-/KIT Version (s) |
