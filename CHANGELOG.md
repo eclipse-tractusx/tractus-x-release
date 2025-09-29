@@ -71,6 +71,7 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 - Data Sovereignty is not transparent to end-users
 - Catalog and Neogtiations have bad user experience (no actions, no filters)
 - **Incompatible with Tractus-X Connector `0.11.x:` (additional)**
+  - Not tested with Tractus-X Connector in version `0.11.x`
   - Not compliant to CX-0018, due to **NOT** evaluating the dspace endpoint.
   - Not compliant to CX-0152, due to **NOT** implementing the new odrl profile.
 
