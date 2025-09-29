@@ -51,7 +51,8 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 - For E2E Testing, the [2.2.3](https://github.com/SAP/ssi-dim-middle-layer/releases/tag/v2.2.3) of the [SSI DIM Middle Layer](https://github.com/SAP/ssi-dim-middle-layer) was used - this component is FOSS but the currently used wallet (see previous item) is not
 
 #### Industry Core Hub
-- RLock is blocking other API calls (when negotiation is not successful at the Discovery: [industry-core-hub#334](https://github.com/eclipse-tractusx/industry-core-hub/issues/334)
+
+- RLock is blocking other API calls when negotiation is not successful at the Discovery: [industry-core-hub#334](https://github.com/eclipse-tractusx/industry-core-hub/issues/334)
 - Trivy scan fails to complete successfully because of alpine version:  [industry-core-hub#319](https://github.com/eclipse-tractusx/industry-core-hub/issues/319)
 - When the EDC connector restarts, the EDC assets are not recreated for the already available twins: [industry-core-hub#318](https://github.com/eclipse-tractusx/industry-core-hub/issues/318)
 - **Incompatible with Tractus-X Connector `0.11.x:` (additional)**
@@ -72,7 +73,7 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 #### Tractus-X SDK
 
 - Compatibility with EDC 0.11.x (Saturn) not tested completely: [tractusx-sdk#159](https://github.com/eclipse-tractusx/tractusx-sdk/issues/159)
-   - The Saturn APIs were implemented but were not able to be tested because of different bugs found at the connector and due to missing documentation on how to adopt it.  
+  - The Saturn APIs were implemented but were not able to be tested because of different bugs found at the connector and due to missing documentation on how to adopt it.  
 
 ### Runtime
 
