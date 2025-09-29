@@ -52,6 +52,9 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 - RLock is blocking other API calls (when negotiation is not successful at the Discovery: [industry-core-hub#334](https://github.com/eclipse-tractusx/industry-core-hub/issues/334)
 - Trivy scan fails to complete successfully because of alpine version:  [industry-core-hub#319](https://github.com/eclipse-tractusx/industry-core-hub/issues/319)
 - When the EDC connector restarts, the EDC assets are not recreated for the already available twins: [industry-core-hub#318](https://github.com/eclipse-tractusx/industry-core-hub/issues/318)
+- **Incompatible with Tractus-X Connector `0.11.x:` (additional)**
+  - Not compliant to CX-0018, due to **NOT** evaluating the dspace endpoint.
+  - Not compliant to CX-0152, due to **NOT** implementing the new odrl profile.
 
 #### PURIS
 
