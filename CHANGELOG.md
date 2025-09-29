@@ -48,6 +48,11 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 - The Eclipse Tractus-X release does not include an Identity Wallet. The development team decided on a temporary bridging solution, based on a commercial application, to test and ship the releases 24.08, 24.12, 25.03, 25.06 and 25.09. Without implementing this interim solution, participants will not be able to fully utilize this release in consequence.
 - For E2E Testing, the [2.2.3](https://github.com/SAP/ssi-dim-middle-layer/releases/tag/v2.2.3) of the [SSI DIM Middle Layer](https://github.com/SAP/ssi-dim-middle-layer) was used - this component is FOSS but the currently used wallet (see previous item) is not
 
+#### Industry Core Hub
+- RLock is blocking other API calls (when negotiation is not successful at the Discovery: [industry-core-hub#334](https://github.com/eclipse-tractusx/industry-core-hub/issues/334)
+- Trivy scan fails to complete successfully because of alpine version:  [industry-core-hub#319](https://github.com/eclipse-tractusx/industry-core-hub/issues/319)
+- When the EDC connector restarts, the EDC assets are not recreated for the already available twins: [industry-core-hub#318](https://github.com/eclipse-tractusx/industry-core-hub/issues/318)
+
 #### PURIS
 
 - Data Assets and DTR not covered in migrations
