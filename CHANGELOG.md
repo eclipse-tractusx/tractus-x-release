@@ -57,6 +57,13 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 - **Incompatible with Tractus-X Connector `0.11.x:` (additional)**
   - Not compliant to CX-0018, due to **NOT** evaluating the dspace endpoint.
   - Not compliant to CX-0152, due to **NOT** implementing the new odrl profile.
+- No authentication is implemented (it will be included in R25.12, PR is ready): [industry-core-hub#254](https://github.com/eclipse-tractusx/industry-core-hub/issues/254)
+
+#### Tractus-X SDK
+
+- Compatibility with EDC 0.11.x (Saturn) not tested completely: [tractusx-sdk#159](https://github.com/eclipse-tractusx/tractusx-sdk/issues/159)
+   - The Saturn APIs were implemented but were not able to be tested because of different bugs found at the connector and due to missing documentation on how to adopt it.  
+
 
 #### PURIS
 
