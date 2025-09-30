@@ -53,6 +53,12 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 - The Eclipse Tractus-X release does not include an Identity Wallet. The development team decided on a temporary bridging solution, based on a commercial application, to test and ship the releases 24.08, 24.12, 25.03, 25.06 and 25.09. Without implementing this interim solution, participants will not be able to fully utilize this release in consequence.
 - For E2E Testing, the [2.2.3](https://github.com/SAP/ssi-dim-middle-layer/releases/tag/v2.2.3) of the [SSI DIM Middle Layer](https://github.com/SAP/ssi-dim-middle-layer) was used - this component is FOSS but the currently used wallet (see previous item) is not
 
+#### BPDM
+
+- When creating a marketplace app the Portal does not support an internal technical user profile for BPDM permission group [Gate Input Consumer](https://github.com/eclipse-tractusx/bpdm/blob/main/docs/architecture/08_Crosscutting_Concepts.md). Therefore, it is currently not possible to create a marketplace app that enables access to [ReadAccessGateInputForSharingMember offers](https://github.com/eclipse-tractusx/bpdm/blob/main/INSTALL.md#edc-installation) for external VAT services wanting to access sharing member Gates
+- For the new EDC 0.11 the golden record process was only tested on the 3rd release candidate, not the actual released version. There were no backwards compatibility tests between older EDC versions and the new EDC 0.11.
+- BPDM currently only offers documentation on how to use the EDC 0.11 over DCP 1.0. There are no tutorials for DCP 0.8 available.
+
 #### Industry Core Hub
 
 - RLock is blocking other API calls when negotiation is not successful at the Discovery: [industry-core-hub#334](https://github.com/eclipse-tractusx/industry-core-hub/issues/334)
