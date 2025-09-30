@@ -22,29 +22,29 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 
 | Component | Helm Chart (s) | App-/KIT Version (s) |
 | :-------- | :-------------: | :------------------: |
-| [Data Trust & Security KIT](https://eclipse-tractusx.github.io/docs-kits/next/kits/data-trust-and-security-kit/adoption-view) | n/a | [0.0.1](https://eclipse-tractusx.github.io/docs-kits/next/kits/data-trust-and-security-kit/changelog#001) |
-| [Requirement KIT](https://eclipse-tractusx.github.io/docs-kits/next/category/requirements-kit) | n/a | [0.1.0](https://eclipse-tractusx.github.io/docs-kits/next/kits/requirements-kit/changelog)|
+| [Data Trust & Security KIT](https://eclipse-tractusx.github.io/docs-kits/category/data-trust--security-kit) | n/a | [0.0.1](https://eclipse-tractusx.github.io/docs-kits/kits/data-trust-and-security-kit/changelog#001) |
+| [Requirement KIT](https://eclipse-tractusx.github.io/docs-kits/category/requirements-kit) | n/a | [0.1.0](https://eclipse-tractusx.github.io/docs-kits/kits/requirements-kit/changelog#010---2025-09-29)|
 
 ### Updated
 
 | Component | Helm Chart (s) | App-/KIT Version (s) |
 | :-------- | :-------------: | :------------------: |
-| [Business Partner KIT]( https://eclipse-tractusx.github.io/docs-kits/next/category/business-partner-kit) | n/a | [10.0.0](https://eclipse-tractusx.github.io/docs-kits/next/category/business-partner-kit) |
+| [Business Partner KIT](https://eclipse-tractusx.github.io/docs-kits/category/business-partner-kit) | n/a | [10.0.0](https://eclipse-tractusx.github.io/docs-kits/kits/business-partner-kit/changelog#1000---2025-09-08) |
 | [BPN DID Resolution Service (BDRS)](https://github.com/eclipse-tractusx/bpn-did-resolution-service) | bdrs: [0.5.7](https://github.com/eclipse-tractusx/bpn-did-resolution-service/releases/tag/0.5.7) | [0.5.7](https://github.com/eclipse-tractusx/bpn-did-resolution-service/releases/tag/0.5.7) |
-| [Demand and Capacity Management KIT](https://eclipse-tractusx.github.io/docs-kits/next/kits/demand-and-capacity-management-kit/adoption-view/overview/)| n/a | [1.4.0](https://eclipse-tractusx.github.io/docs-kits/next/kits/demand-and-capacity-management-kit/changelog/#130---2025-03-03) |
+| [Demand and Capacity Management KIT](https://eclipse-tractusx.github.io/docs-kits/kits/demand-and-capacity-management-kit/adoption-view/overview)| n/a | [1.4.0](https://eclipse-tractusx.github.io/docs-kits/kits/demand-and-capacity-management-kit/changelog#140---2025-09-29) |
 | [Digital Twin Registry](https://github.com/eclipse-tractusx/sldt-digital-twin-registry) | digital-twin-registry:[0.9.0](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/digital-twin-registry-0.9.0) | [0.9.0](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/v0.9.0) |
 | [Eclipse Data Space Connector (Tractus-X EDC)](https://github.com/eclipse-tractusx/tractusx-edc) | tractusx-connector: [0.11.0](https://github.com/eclipse-tractusx/tractusx-edc/releases/tag/0.11.0) | [0.11.0](https://github.com/eclipse-tractusx/tractusx-edc/releases/tag/0.11.0) |
 | [Golden Record Business Partner Number (BPN) Service](https://github.com/eclipse-tractusx/bpdm) | bpdm: [6.1.0](https://github.com/eclipse-tractusx/bpdm/releases/tag/bpdm-6.1.0) | [7.1.0](https://github.com/eclipse-tractusx/bpdm/releases/tag/v7.1.0) |
 | [Identity and Access Management (IAM)](https://github.com/eclipse-tractusx/portal-iam) | centralidp: [4.2.1](https://github.com/eclipse-tractusx/portal-iam/releases/tag/centralidp-4.2.1) <br/> sharedidp: [4.2.1](https://github.com/eclipse-tractusx/portal-iam/releases/tag/sharedidp-4.2.1) | keycloak: [25.0.6](https://www.keycloak.org/docs/latest/release_notes/index.html#keycloak-25-0-0) |
 | [Industry Core Hub](https://github.com/eclipse-tractusx/industry-core-hub) | industry-core-hub:[0.3.0](https://github.com/eclipse-tractusx/industry-core-hub/releases/tag/industry-core-hub-0.3.0) | [v0.2.0](https://github.com/eclipse-tractusx/industry-core-hub/releases/tag/v0.2.0) |
 | [Portal](https://github.com/eclipse-tractusx/portal) | portal: [2.6.0](https://github.com/eclipse-tractusx/portal/releases/tag/portal-2.6.0) | registration: [2.2.2](https://github.com/eclipse-tractusx/portal-frontend-registration/releases/tag/v2.2.2)<br/>frontend: [2.6.0](https://github.com/eclipse-tractusx/portal-frontend/releases/tag/v2.6.0)<br/>backend: [2.6.0](https://github.com/eclipse-tractusx/portal-backend/releases/tag/v2.6.0)<br/>assets: [2.6.0](https://github.com/eclipse-tractusx/portal-assets/releases/tag/v2.6.0) |
-| [Product Carbon Footprint KIT](https://eclipse-tractusx.github.io/docs-kits/next/category/product-carbon-footprint-exchange-kit) | n/a | [1.3.0](https://eclipse-tractusx.github.io/docs-kits/next/kits/product-carbon-footprint-exchange-kit/changelog) |
+| [Product Carbon Footprint KIT](https://eclipse-tractusx.github.io/docs-kits/category/product-carbon-footprint-exchange-kit) | n/a | [1.3.0](https://eclipse-tractusx.github.io/docs-kits/kits/product-carbon-footprint-exchange-kit/changelog#130---2025-09-29) |
 | [PURIS](https://github.com/eclipse-tractusx/puris) | puris: [4.1.1](https://github.com/eclipse-tractusx/puris/releases/tag/puris-4.1.1) | [3.3.0](https://github.com/eclipse-tractusx/puris/releases/tag/3.3.0) |
-| [PURIS KIT](https://eclipse-tractusx.github.io/docs-kits/category/predictive-unit-real-time-information-service-kit)| n/a | [0.4.0](https://eclipse-tractusx.github.io/docs-kits/next/kits/puris-kit/changelog/)|
+| [PURIS KIT](https://eclipse-tractusx.github.io/docs-kits/category/predictive-unit-real-time-information-service-kit)| n/a | [0.4.0](https://eclipse-tractusx.github.io/docs-kits/kits/puris-kit/changelog#040---2025-08-16)|
 | [Self Description (SD) Factory](https://github.com/eclipse-tractusx/sd-factory) | sdfactory: [2.1.34](https://github.com/eclipse-tractusx/sd-factory/releases/tag/sdfactory-2.1.34) | [2.1.25](https://github.com/eclipse-tractusx/sd-factory/releases/tag/v2.1.25) |
-| [Supply Chain Disruption Notification KIT](https://eclipse-tractusx.github.io/docs-kits/next/kits/supply-chain-disruption-notification-kit/changelog)| n/a | [2.0.0](https://eclipse-tractusx.github.io/docs-kits/next/kits/supply-chain-disruption-notification-kit/changelog) |
+| [Supply Chain Disruption Notification KIT](https://eclipse-tractusx.github.io/docs-kits/category/supply-chain-disruption-notification-kit)| n/a | [2.0.0](https://eclipse-tractusx.github.io/docs-kits/kits/supply-chain-disruption-notification-kit/changelog#200---2025-08-22) |
 | [Tractus-X Software Development KIT (SDK)](https://github.com/eclipse-tractusx/tractusx-sdk) | n/a | [v0.5.0](https://github.com/eclipse-tractusx/tractusx-sdk/releases/tag/v0.5.0) |
-| [Traceability KIT](https://eclipse-tractusx.github.io/docs-kits/next/category/traceability-kit) | n/a | [7.0.0](https://eclipse-tractusx.github.io/docs-kits/next/kits/traceability-kit/changelog#700---2025-08-07) |
+| [Traceability KIT](https://eclipse-tractusx.github.io/docs-kits/category/traceability-kit) | n/a | [7.0.0](https://eclipse-tractusx.github.io/docs-kits/kits/traceability-kit/changelog#700---2025-08-07) |
 
 ### Known Knowns
 
