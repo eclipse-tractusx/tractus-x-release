@@ -59,6 +59,14 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 - For the new EDC 0.11 the golden record process was only tested on the 3rd release candidate, not the actual released version. There were no backwards compatibility tests between older EDC versions and the new EDC 0.11.
 - BPDM currently only offers documentation on how to use the EDC 0.11 over DCP 1.0. There are no tutorials for DCP 0.8 available.
 
+### EDC
+
+- Beware of the changes in the acceptable policies, which inflict breaking changes required by services that create new policies -- see migration guide for more information.
+- Policy right operands given as array are not returned as specified, they work, but the returned right operand is a string representation of the json object([#2221](https://github.com/eclipse-tractusx/tractusx-edc/issues/2221))
+- DCP implementation uses a wrong property name. SAP DIM is capable to deal with the wrong property name ([#2255](https://github.com/eclipse-tractusx/tractusx-edc/issues/2255))
+-Application of policies that can be ensured automatically not complete ([#2259](https://github.com/eclipse-tractusx/tractusx-edc/issues/2259))
+- There is a complex issue about the compatibility of policies with dsp versions, especially regarding backward compatibility ([#2288](https://github.com/eclipse-tractusx/tractusx-edc/issues/2288)). The issue requires further investigation which we will execute to separate misbehavior from documentation issues.
+
 #### Industry Core Hub
 
 - RLock is blocking other API calls when negotiation is not successful at the Discovery: [industry-core-hub#334](https://github.com/eclipse-tractusx/industry-core-hub/issues/334)
