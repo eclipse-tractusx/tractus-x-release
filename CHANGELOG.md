@@ -16,7 +16,127 @@ Tractus-X operates on YY.0M.MICRO [Calendar Versioning](https://calver.org/) for
 
 ## [25.09] - 2025-09-30
 
-Implemented features can be found [here](https://github.com/orgs/eclipse-tractusx/projects/26/views/41)
+Our community and results/releases depends on our contributors. **We want to thank everyone who has contributed** to this release by reporting issues, discussing solutions, writing code, or reviewing contributions.
+
+### Contributors (62)
+
+[![sm29105](https://images.weserv.nl/?url=github.com/sm29105.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/sm29105)
+[![gomezbc](https://images.weserv.nl/?url=github.com/gomezbc.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/gomezbc)
+[![jSchuetz88](https://images.weserv.nl/?url=github.com/jSchuetz88.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/jSchuetz88)
+[![AYaoZhan](https://images.weserv.nl/?url=github.com/AYaoZhan.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/AYaoZhan)
+[![ReneSchroederLJ](https://images.weserv.nl/?url=github.com/ReneSchroederLJ.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/ReneSchroederLJ)
+[![MDSBarbosa](https://images.weserv.nl/?url=github.com/MDSBarbosa.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/MDSBarbosa)
+[![shijinrajbosch](https://images.weserv.nl/?url=github.com/shijinrajbosch.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/shijinrajbosch)
+[![ther3sa](https://images.weserv.nl/?url=github.com/ther3sa.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/ther3sa)
+[![pjuaristi-ikerlan](https://images.weserv.nl/?url=github.com/pjuaristi-ikerlan.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/pjuaristi-ikerlan)
+[![flarrinaga](https://images.weserv.nl/?url=github.com/flarrinaga.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/flarrinaga)
+[![bosserf](https://images.weserv.nl/?url=github.com/bosserf.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/bosserf)
+[![AndrYurk](https://images.weserv.nl/?url=github.com/AndrYurk.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/AndrYurk)
+[![JordanGerada3](https://images.weserv.nl/?url=github.com/JordanGerada3.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/JordanGerada3)
+[![Grand-Thibault](https://images.weserv.nl/?url=github.com/Grand-Thibault.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/Grand-Thibault)
+[![tfjanjua](https://images.weserv.nl/?url=github.com/tfjanjua.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/tfjanjua)
+[![samuelroywork](https://images.weserv.nl/?url=github.com/samuelroywork.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/samuelroywork)
+[![SanaSalem01](https://images.weserv.nl/?url=github.com/SanaSalem01.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/SanaSalem01)
+[![sonama](https://images.weserv.nl/?url=github.com/sonama.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/sonama)
+[![Usmanfee](https://images.weserv.nl/?url=github.com/Usmanfee.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/Usmanfee)
+[![kkotowiczz](https://images.weserv.nl/?url=github.com/kkotowiczz.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/kkotowiczz)
+[![leandro-cavalcante](https://images.weserv.nl/?url=github.com/leandro-cavalcante.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/leandro-cavalcante)
+[![marcelruland](https://images.weserv.nl/?url=github.com/marcelruland.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/marcelruland)
+[![JulianSchererZF](https://images.weserv.nl/?url=github.com/JulianSchererZF.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/JulianSchererZF)
+[![hokonohara](https://images.weserv.nl/?url=github.com/hokonohara.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/hokonohara)
+[![adkumar1](https://images.weserv.nl/?url=github.com/adkumar1.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/adkumar1)
+[![OlgaIvkovic](https://images.weserv.nl/?url=github.com/OlgaIvkovic.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/OlgaIvkovic)
+[![Alaitz1](https://images.weserv.nl/?url=github.com/Alaitz1.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/Alaitz1)
+[![kss682](https://images.weserv.nl/?url=github.com/kss682.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/kss682)
+[![Sebastian-Wurm](https://images.weserv.nl/?url=github.com/Sebastian-Wurm.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/Sebastian-Wurm)
+[![ybidois](https://images.weserv.nl/?url=github.com/ybidois.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/ybidois)
+[![manourym](https://images.weserv.nl/?url=github.com/manourym.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/manourym)
+[![klanir123](https://images.weserv.nl/?url=github.com/klanir123.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/klanir123)
+[![th0masgl](https://images.weserv.nl/?url=github.com/th0masgl.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/th0masgl)
+[![tobikleinfrd](https://images.weserv.nl/?url=github.com/tobikleinfrd.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/tobikleinfrd)
+[![alejandrogranizo](https://images.weserv.nl/?url=github.com/alejandrogranizo.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/alejandrogranizo)
+[![zanpi8020](https://images.weserv.nl/?url=github.com/zanpi8020.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/zanpi8020)
+[![drhansbeck](https://images.weserv.nl/?url=github.com/drhansbeck.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/drhansbeck)
+[![seb-l0](https://images.weserv.nl/?url=github.com/seb-l0.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/seb-l0)
+[![hkny](https://images.weserv.nl/?url=github.com/hkny.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/hkny)
+[![thomas-henn](https://images.weserv.nl/?url=github.com/thomas-henn.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/thomas-henn)
+[![LukasSchmetz](https://images.weserv.nl/?url=github.com/LukasSchmetz.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/LukasSchmetz)
+[![kunyao-cofinity-x](https://images.weserv.nl/?url=github.com/kunyao-cofinity-x.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/kunyao-cofinity-x)
+[![dorkabcox](https://images.weserv.nl/?url=github.com/dorkabcox.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/dorkabcox)
+[![MonikaJacobsen](https://images.weserv.nl/?url=github.com/MonikaJacobsen.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/MonikaJacobsen)
+[![zygokaktus](https://images.weserv.nl/?url=github.com/zygokaktus.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/zygokaktus)
+[![stanfaldin](https://images.weserv.nl/?url=github.com/stanfaldin.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/stanfaldin)
+[![sachinargade123](https://images.weserv.nl/?url=github.com/sachinargade123.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/sachinargade123)
+[![wehrstedt-jan](https://images.weserv.nl/?url=github.com/wehrstedt-jan.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/wehrstedt-jan)
+[![ds-asmierzchalski](https://images.weserv.nl/?url=github.com/ds-asmierzchalski.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/ds-asmierzchalski)
+[![MaximilianHauer](https://images.weserv.nl/?url=github.com/MaximilianHauer.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/MaximilianHauer)
+[![Jochen-Fischer](https://images.weserv.nl/?url=github.com/Jochen-Fischer.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/Jochen-Fischer)
+[![anneramsauer](https://images.weserv.nl/?url=github.com/anneramsauer.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/anneramsauer)
+[![Kuehner-A](https://images.weserv.nl/?url=github.com/Kuehner-A.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/Kuehner-A)
+[![LuisRickert](https://images.weserv.nl/?url=github.com/LuisRickert.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/LuisRickert)
+[![DrDanielMetz](https://images.weserv.nl/?url=github.com/DrDanielMetz.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/DrDanielMetz)
+[![JSterthues](https://images.weserv.nl/?url=github.com/JSterthues.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/JSterthues)
+[![DanielaWuensch](https://images.weserv.nl/?url=github.com/DanielaWuensch.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/DanielaWuensch)
+[![jschu1](https://images.weserv.nl/?url=github.com/jschu1.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/jschu1)
+[![dvg36](https://images.weserv.nl/?url=github.com/dvg36.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/dvg36)
+[![tobzahn](https://images.weserv.nl/?url=github.com/tobzahn.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/tobzahn)
+[![shubhamv-ss](https://images.weserv.nl/?url=github.com/shubhamv-ss.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/shubhamv-ss)
+[![bilge-erdem](https://images.weserv.nl/?url=github.com/bilge-erdem.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/bilge-erdem)
+
+### Committers (34)
+
+[![matbmoser](https://images.weserv.nl/?url=github.com/matbmoser.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/matbmoser)
+[![CDiezRodriguez](https://images.weserv.nl/?url=github.com/CDiezRodriguez.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/CDiezRodriguez)
+[![lgblaumeiser](https://images.weserv.nl/?url=github.com/lgblaumeiser.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/lgblaumeiser)
+[![stephanbcbauer](https://images.weserv.nl/?url=github.com/stephanbcbauer.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/stephanbcbauer)
+[![typecastcloud](https://images.weserv.nl/?url=github.com/typecastcloud.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/typecastcloud)
+[![SujitMBRDI](https://images.weserv.nl/?url=github.com/SujitMBRDI.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/SujitMBRDI)
+[![ClosedSourcerer](https://images.weserv.nl/?url=github.com/ClosedSourcerer.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/ClosedSourcerer)
+[![ndr-brt](https://images.weserv.nl/?url=github.com/ndr-brt.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/ndr-brt)
+[![nicoprow](https://images.weserv.nl/?url=github.com/nicoprow.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/nicoprow)
+[![tom-rm-meyer-ISST](https://images.weserv.nl/?url=github.com/tom-rm-meyer-ISST.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/tom-rm-meyer-ISST)
+[![evegufy](https://images.weserv.nl/?url=github.com/evegufy.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/evegufy)
+[![tomaszbarwicki](https://images.weserv.nl/?url=github.com/tomaszbarwicki.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/tomaszbarwicki)
+[![rafaelmag110](https://images.weserv.nl/?url=github.com/rafaelmag110.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/rafaelmag110)
+[![Phil91](https://images.weserv.nl/?url=github.com/Phil91.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/Phil91)
+[![bmg13](https://images.weserv.nl/?url=github.com/bmg13.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/bmg13)
+[![agg3fe](https://images.weserv.nl/?url=github.com/agg3fe.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/agg3fe)
+[![ds-mwesener](https://images.weserv.nl/?url=github.com/ds-mwesener.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/ds-mwesener)
+[![mgarciaLKS](https://images.weserv.nl/?url=github.com/mgarciaLKS.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/mgarciaLKS)
+[![ds-jhartmann](https://images.weserv.nl/?url=github.com/ds-jhartmann.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/ds-jhartmann)
+[![rogocof](https://images.weserv.nl/?url=github.com/rogocof.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/rogocof)
+[![mkanal](https://images.weserv.nl/?url=github.com/mkanal.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/mkanal)
+[![saadanzari](https://images.weserv.nl/?url=github.com/saadanzari.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/saadanzari)
+[![dhiren-singh-007](https://images.weserv.nl/?url=github.com/dhiren-singh-007.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/dhiren-singh-007)
+[![nitin-vavdiya](https://images.weserv.nl/?url=github.com/nitin-vavdiya.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/nitin-vavdiya)
+[![manojava-gk](https://images.weserv.nl/?url=github.com/manojava-gk.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/manojava-gk)
+[![paullatzelsperger](https://images.weserv.nl/?url=github.com/paullatzelsperger.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/paullatzelsperger)
+[![maximilianong](https://images.weserv.nl/?url=github.com/maximilianong.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/maximilianong)
+[![mhellmeier](https://images.weserv.nl/?url=github.com/mhellmeier.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/mhellmeier)
+[![arnoweiss](https://images.weserv.nl/?url=github.com/arnoweiss.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/arnoweiss)
+[![ntruchsess](https://images.weserv.nl/?url=github.com/ntruchsess.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/ntruchsess)
+[![saudkhan116](https://images.weserv.nl/?url=github.com/saudkhan116.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/saudkhan116)
+[![almadigabor](https://images.weserv.nl/?url=github.com/almadigabor.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/almadigabor)
+[![florianrusch-zf](https://images.weserv.nl/?url=github.com/florianrusch-zf.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/florianrusch-zf)
+[![RoKrish14](https://images.weserv.nl/?url=github.com/RoKrish14.png&h=40&w=40&fit=cover&mask=circle&maxage=7d)](https://github.com/RoKrish14)
+
+:::note
+
+The above list contains all contributors and committers that have been involved in this release. The list is generated automatically based on the amount of contributions to the [repositories](https://github.com/orgs/eclipse-tractusx/repositories)
+of the [Eclipse Tractus-X organization](https://github.com/eclipse-tractusx) on GitHub.
+
+**It's not only about code contributions**, but also about reporting issues, discussing solutions, writing documentation, or reviewing contributions.
+
+:::
+
+### Highlights
+
+:::note
+
+The planned and implemented features can be found in the [sig-release issue list](https://github.com/eclipse-tractusx/sig-release/issues?q=is%3Aissue%20milestone%3A25.09) (filtered by milestone `25.09`). These features describe only the requested new function/functionality.
+Most of the features are linked to product specific issues. Please have a look on product specific repositories for detailed information on the product specific issues tabs.
+
+:::
 
 ### Added
 
@@ -56,10 +176,10 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 #### BPDM
 
 - When creating a marketplace app the Portal does not support an internal technical user profile for BPDM permission group [Gate Input Consumer](https://github.com/eclipse-tractusx/bpdm/blob/main/docs/architecture/08_Crosscutting_Concepts.md). Therefore, it is currently not possible to create a marketplace app that enables access to [ReadAccessGateInputForSharingMember offers](https://github.com/eclipse-tractusx/bpdm/blob/main/INSTALL.md#edc-installation) for external VAT services wanting to access sharing member Gates
-- For the new EDC 0.11 the golden record process was only tested on the 3rd release candidate, not the actual released version. There were no backwards compatibility tests between older EDC versions and the new EDC 0.11.
-- BPDM currently only offers documentation on how to use the EDC 0.11 over DCP 1.0. There are no tutorials for DCP 0.8 available.
+- For the new Tractus-X Connector 0.11 the golden record process was only tested on the 3rd release candidate, not the actual released version. There were no backwards compatibility tests between older Tractus-X Connector versions and the new Tractus-X Connector 0.11.
+- BPDM currently only offers documentation on how to use the Tractus-X Connector 0.11 over DCP 1.0. There are no tutorials for DCP 0.8 available.
 
-#### EDC
+#### Tractus-X Connector
 
 - Beware of the changes in the acceptable policies, which inflict breaking changes required by services that create new policies -- see migration guide for more information.
 - Policy right operands given as array are not returned as specified, they work, but the returned right operand is a string representation of the json object([#2221](https://github.com/eclipse-tractusx/tractusx-edc/issues/2221))
@@ -69,9 +189,9 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 
 #### Industry Core Hub
 
-- RLock is blocking other API calls when negotiation is not successful at the Discovery: [industry-core-hub#334](https://github.com/eclipse-tractusx/industry-core-hub/issues/334)
+- RLock is blocking other API calls (when negotiation is not successful at the Discovery: [industry-core-hub#334](https://github.com/eclipse-tractusx/industry-core-hub/issues/334)
 - Trivy scan fails to complete successfully because of alpine version:  [industry-core-hub#319](https://github.com/eclipse-tractusx/industry-core-hub/issues/319)
-- When the EDC connector restarts, the EDC assets are not recreated for the already available twins: [industry-core-hub#318](https://github.com/eclipse-tractusx/industry-core-hub/issues/318)
+- When the Tractus-X Connector restarts, the Connector assets are not recreated for the already available twins: [industry-core-hub#318](https://github.com/eclipse-tractusx/industry-core-hub/issues/318)
 - **Incompatible with Tractus-X Connector `0.11.x:` (additional)**
   - Not compliant to CX-0018, due to **NOT** evaluating the dspace endpoint.
   - Not compliant to CX-0152, due to **NOT** implementing the new odrl profile.
@@ -89,8 +209,8 @@ Implemented features can be found [here](https://github.com/orgs/eclipse-tractus
 
 #### Tractus-X SDK
 
-- Compatibility with EDC 0.11.x (Saturn) not tested completely: [tractusx-sdk#159](https://github.com/eclipse-tractusx/tractusx-sdk/issues/159)
-  - The Saturn APIs were implemented but were not able to be tested because of different bugs found at the connector and due to missing documentation on how to adopt it.  
+- Compatibility with Tractus-X Connector 0.11.x (Saturn) not tested completely: [tractusx-sdk#159](https://github.com/eclipse-tractusx/tractusx-sdk/issues/159)
+  - The Saturn APIs were implemented but were not able to be tested because of different bugs found at the connector and due to missing documentation on how to adopt it.
 
 ### Runtime
 
@@ -99,10 +219,14 @@ The following runtime has been used during end-to-end test:
 - [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) version: `1.29.10`
 - Applications used
   - [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) version: `15.4.0` or more specifically `15.4.0-debian-11-r45`
-  - EDC version [0.11.0](https://github.com/eclipse-tractusx/tractusx-edc/releases/tag/0.11.0)
+  - Tractus-X Connector version [0.11.0](https://github.com/eclipse-tractusx/tractusx-edc/releases/tag/0.11.0)
   - DTR version [0.9.0](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/v0.9.0)
 
-Note: Tractus-X EDC has been tested on both Postgresql versions: 15.x and 16.x
+:::note
+
+Tractus-X Connector has been tested on both Postgresql versions: 15.x and 16.x
+
+:::
 
 ### Using helm with central helm registry
 
@@ -114,7 +238,34 @@ helm repo update tractusx-dev
 helm search repo tractusx-dev --versions
 ```
 
-For installation details, please see the referenced Repositories / Releases.
+### Bitnami changes
+
+The official Bitnami Helm chart repository has been deprecated or is no longer maintained in its previous location. Bitnami has migrated legacy 
+container images to a new repository called `bitnamilegacy`. Helm charts using Bitnami container images must be updated to reference this new source
+to ensure continued functionality. With `bitnamilegacy` we won’t receive security updates.
+
+:::tip
+
+If you are using a provided helm chart from Eclipse Tractus-X that uses Bitnami container images and it doesn't work, please check the values.yaml file of the respective chart
+and update/overwrite the image repository from `bitnami/<image-name>` to `bitnamilegacy/<image-name>`.
+
+:::
+
+Extract from `values.yaml`:
+
+```yaml
+postgresql:
+  image:
+    # -- workaround to use bitnamilegacy chart
+    repository: bitnamilegacy/postgresql
+    tag: 15.4.0-debian-11-r45
+```
+
+:::tip
+
+For installation details, please see the referenced Repositories / Releases and related documentation (e.g. migration documentation)
+
+:::
 
 ## [25.06] - 2025-06-16
 
