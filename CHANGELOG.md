@@ -191,8 +191,7 @@ The following runtime has been used during end-to-end test:
 
 - [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) version: `1.33.1`
 - Applications used
-  - [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) version: `15.4.0` or more specifically `15.4.0-debian-11-r45`
-  - Tractus-X Connector version [0.11.0](https://github.com/eclipse-tractusx/tractusx-edc/releases/tag/0.11.0)
+  - [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) version: `15.4.0` or higher
   - DTR version [0.10.0](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/v0.10.0)
 
 :::note
