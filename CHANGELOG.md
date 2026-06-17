@@ -95,9 +95,9 @@ Most of the features are linked to product specific issues. Please have a look o
 
 ### Known Knowns
 
-- All not listed products and KITs have not been updated and are based on the release 26.03 or previous releases
+- All not listed products have not been updated and are based on the release 26.03 or previous releases
   - These products were not part of the testing phase
-- The Eclipse Tractus-X release does not include an Identity Wallet. The development team decided on a temporary bridging solution, based on a commercial application, to test and ship the releases 26.03. Without implementing this interim solution, participants will not be able to fully utilize this release in consequence.
+- The Eclipse Tractus-X release does not include an Identity Wallet. The development team decided on a temporary bridging solution, based on a commercial application, to test and ship the releases 26.06. Without implementing this interim solution, participants will not be able to fully utilize this release in consequence.
 - For E2E Testing, the [2.2.3](https://github.com/SAP/ssi-dim-middle-layer/releases/tag/v2.2.3) of the [SSI DIM Middle Layer](https://github.com/SAP/ssi-dim-middle-layer) was used - this component is FOSS but the currently used wallet (see previous item) is not
 
 #### Digital Twin Registry
@@ -175,6 +175,7 @@ For installation details, please see the referenced Repositories / Releases and 
 This release does not include any changes to semantic models. No semantic models were added, updated, modified, or removed.
 
 :::
+
 
 ## [26.03] - 2026-03-18
 
