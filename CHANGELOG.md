@@ -42,8 +42,7 @@ We are looking forward to continuing this journey together with the community an
 
 :::info
 
-The above list contains all contributors and committers that have been involved in this release. The list is generated automatically based on the amount of contributions to our 57 [repositories](https://github.com/orgs/eclipse-tractusx/repositories)
-of the [Eclipse Tractus-X organization](https://github.com/eclipse-tractusx) on GitHub.
+The above list contains all contributors and committers that have been involved in this release. The list is generated automatically based on the amount of contributions to our 57 [repositories](https://github.com/orgs/eclipse-tractusx/repositories) of the [Eclipse Tractus-X organization](https://github.com/eclipse-tractusx) on GitHub.
 
 **It's not only about code contributions**, but also about reporting issues, discussing solutions, writing documentation, or reviewing contributions.
 
