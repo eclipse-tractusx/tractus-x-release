@@ -126,7 +126,7 @@ Most of the features are linked to product specific issues. Please have a look o
 
 #### IdentityHub
 
-- API Rest to control the custom_attestatcion_claims table for easier data manipulation rather than direct DB control feature will be postponed for the next release (26.12)
+- API Rest to control the custom_attestation_claims table for easier data manipulation rather than direct DB control feature will be postponed for the next release (26.12)
 
 #### Item Relationship Service (IRS)
 
