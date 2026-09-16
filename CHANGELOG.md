@@ -116,7 +116,7 @@ Most of the features are linked to product specific issues. Please have a look o
 - Migration from Bitnami to Cloudpirates pending
 
 #### Golden Record Business Partner Number (BPN) Service
- 
+
 - **Alternative headquarter remediation is mandatory before upgrading.** Existing `IsAlternativeHeadquarterFor` relations were stored with arbitrary direction; operators must re-create them with source = alternative, target = main, and move any ownership relations and `ownershipUltimate` flag off alternative entities in both Pool and Gate output database.
 - **Site names must be unique per legal entity.** A new constraint is added without resolving pre-existing duplicates — the migration fails and the deployment will not start if duplicates exist.
 - **Non-conforming script variants are deleted on upgrade** (missing legal name, site name or physical city, or a script code the owning address does not cover). Export before upgrading if the data is needed.
@@ -144,10 +144,10 @@ Most of the features are linked to product specific issues. Please have a look o
 
 The following runtime has been used during end-to-end test:
 
-- [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) version: `1.XX.X`
+- [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) version: `1.34.1`
 - Applications used
-  - [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) version: `XX.X.0` or higher
-  - DTR version [0.XX.0](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/v0.XX.0)
+  - [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) version: `15.4.0` or higher
+  - DTR version [0.13.0](https://github.com/eclipse-tractusx/sldt-digital-twin-registry/releases/tag/v0.13.0)
 
 ### Using helm with central helm registry
 
